@@ -676,5 +676,8 @@
     <string name="sp_profile_entries_no_override">No override</string>
     <string name="profile_select">Select profile</string>
 
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
+
 </resources>
 

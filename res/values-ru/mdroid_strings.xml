@@ -668,4 +668,7 @@
     <string name="sp_profile_entries_no_override">Оставить без изменения</string>
     <string name="profile_select">Выбор профиля</string>
 
+    <!-- Hostname setting -->
+    <string name="device_hostname">Сетевое имя устройства</string>
+
 </resources>

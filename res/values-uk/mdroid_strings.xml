@@ -668,4 +668,7 @@
     <string name="sp_profile_entries_no_override">Залишити без змін</string>
     <string name="profile_select">Выбір профілю</string>
 
+    <!-- Hostname setting -->
+    <string name="device_hostname">Мережеве ім\'я пристрою</string>
+
 </resources>
