@@ -274,6 +274,7 @@ public class SoundSettings extends DashboardFragment {
         controllers.add(new BootSoundPreferenceController(context));
         controllers.add(new EmergencyTonePreferenceController(context, fragment, lifecycle));
 	controllers.add(new VibrateOnPlugPreferenceController(context, fragment, lifecycle));
+        controllers.add(new ScreenshotSoundPreferenceController(context, fragment, lifecycle));
 
         return controllers;
     }
