@@ -190,4 +190,18 @@
     <string name="font_subs_info">Перед використанням обов\'язково вимкніть в Substratum кожен накладений шрифт.\Якщо ви хочете повернутися до використання Substratum, обов\'язково виберіть шрифт за замовчуванням (Roboto) в даних настройках.</string>
     <string name="font_picker_reboot_recommended">Для оптимальної роботи,\nперезавантажте пристрій</string>
 
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Розширений екран</string>
+    <string name="expanded_hide_nothing">Нічого не приховувати</string>
+    <string name="expanded_hide_status">Приховати рядок стану</string>
+    <string name="expanded_hide_navigation">Приховати панель навігації</string>
+    <string name="expanded_hide_both">Приховати обидва</string>
+    <string name="expanded_nothing_to_show">Для налаштування параметрів розширеног оекрана для окремих додатків. Для настройки параметров расширенного экрана для отдельных приложений, переведіть перемикач «Увімкнено для всіх» у вимкнений стан.</string>
+    <string name="expanded_enabled_for_all">Увімкнено для всіх</string>
+    <string name="expanded_desktop_style">Стиль розширеного екрана</string>
+    <string name="expanded_desktop_style_description">Вибрати режим розширеного екрана за замовчуванням</string>
+    <string name="expanded_desktop_title">Налаштування розширеног оекрана</string>
+    <string name="expanded_user_configurable">Налаштовується користувачем</string>
+    <string name="expanded_desktop_state">Розширений стан</string>
+
 </resources>

@@ -66,6 +66,11 @@
         android:title="@string/display_rotation_title" />
 
     <Preference
+        android:key="expanded_desktop"
+        android:title="@string/power_menu_expanded_desktop"
+        android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+
+    <Preference
         android:key="color_mode"
         android:title="@string/color_mode_title"
         android:fragment="com.android.settings.display.ColorModePreferenceFragment"
