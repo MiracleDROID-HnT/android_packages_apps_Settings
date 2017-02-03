@@ -196,4 +196,5 @@ public class Settings extends SettingsActivity {
     public static class StylePreferencesActivity extends SettingsActivity {}
 
     public static class BatteryLightSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }

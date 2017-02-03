@@ -315,5 +315,8 @@
     <string name="data_usage_app_restrict_wifi">Передача данных по Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Включить передачу данных по Wi\u2011Fi</string>
 
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Фоновые процессы</string>
+
 </resources>
 

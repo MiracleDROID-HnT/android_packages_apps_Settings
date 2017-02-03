@@ -316,4 +316,7 @@
     <string name="data_usage_app_restrict_wifi">Передача даних по Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Увімкнути передачу даних по Wi\u2011Fi</string>
 
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Фонові процеси</string>
+
 </resources>
