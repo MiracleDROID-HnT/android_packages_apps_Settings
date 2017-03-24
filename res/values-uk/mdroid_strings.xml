@@ -54,12 +54,15 @@
     <string name="sim_enabler_airplane_on">Виконання операції неможливо при увімкненому режимі польоту.</string>
     <string name="sim_enabler_in_call">Виконання операції неможливо під час виклику.</string>
     <string name="sim_enabler_both_inactive">Неможливо вимкнути всі SIM-карти</string>
-    <string name="sim_enabler_enabling">Увімкнення\u2026</string>
-    <string name="sim_enabler_disabling">Вимкнення\u2026</string>
+    <string name="sim_enabler_enabling">Увімкнення\u2026 Перемикач приховування неактивної мережі вимкнений</string>
+    <string name="sim_enabler_disabling">Вимкнення\u2026 Перемикач приховування неактивної мережі вимкнений</string>
     <string name="sub_activate_success">SIM-карта увімкнена.</string>
     <string name="sub_activate_failed">Помилка активації.</string>
-    <string name="sub_deactivate_success">SIM-карта вимкнена.</string>
+    <string name="sub_deactivate_success">SIM-карта вимкнена. Щоб приховати значок, скористайтесь відповідним перемикачем, що розташований нижче</string>
     <string name="sub_deactivate_failed">Помилка при вимкненні.</string>
+
+    <string name="no_sim_cluster_switch_title">Приховати неактивну мережу</string>
+    <string name="no_sim_cluster_switch_summary">Приховати панель мережі, якщо sim-карта неактивна і вимкнена. Якщо sim-карту не вимкнуто, ця опція не працюватиме</string>
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Яскравість</string>
