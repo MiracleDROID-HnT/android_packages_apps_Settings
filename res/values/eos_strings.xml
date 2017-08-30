@@ -131,5 +131,8 @@
     <string name="display_rotation_270_title">270 degrees</string>
     <string name="display_lockscreen_rotation_title">Rotate lock screen</string>
 
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Phone info</string>
+
 </resources>
 

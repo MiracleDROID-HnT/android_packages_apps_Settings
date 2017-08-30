@@ -131,5 +131,8 @@
     <string name="display_rotation_270_title">270 градусов</string>
     <string name="display_lockscreen_rotation_title">Автоповорот экрана блокировки</string>
 
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Информация о телефоне</string>
+
 </resources>
 
