@@ -134,6 +134,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import mx.elixir.magicalworld.MagicalWorld;
 import mx.elixir.magicalworld.fragments.style.StylePreferences;
+import mx.elixir.magicalworld.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -258,6 +259,7 @@ public class SettingsGateway {
             DataUsageList.class.getName(),
             MagicalWorld.class.getName(),
             StylePreferences.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
