@@ -671,4 +671,9 @@
     <!-- Hostname setting -->
     <string name="device_hostname">Сетевое имя устройства</string>
 
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Показывать информацию о процессоре</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Отображать на экране текущую информацию о процессоре</string>
+
 </resources>
