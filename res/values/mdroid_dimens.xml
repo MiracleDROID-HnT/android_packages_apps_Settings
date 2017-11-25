@@ -23,4 +23,7 @@
     <dimen name="color_preference_height">40dp</dimen>
 
     <dimen name="fab_line_width">2dp</dimen>
+
+    <!-- Oval preview size -->
+    <dimen name="oval_notification_size">26dp</dimen>
 </resources>
