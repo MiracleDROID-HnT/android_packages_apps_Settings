@@ -689,4 +689,7 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Температура батареи</string>
 
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Принимать все типы файлов</string>
+
 </resources>
