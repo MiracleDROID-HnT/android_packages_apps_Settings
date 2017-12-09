@@ -195,4 +195,5 @@ public class Settings extends SettingsActivity {
     public static class MagicalWorldActivity extends SettingsActivity {}
     public static class StylePreferencesActivity extends SettingsActivity {}
 
+    public static class BatteryLightSettingsActivity extends SettingsActivity { /* empty */ }
 }
