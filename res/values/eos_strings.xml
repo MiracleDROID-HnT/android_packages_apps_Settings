@@ -134,5 +134,8 @@
     <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
 
+    <!-- Vibrate on plug -->
+    <string name="vibrate_on_plug_title">Vibrate on plug</string>
+
 </resources>
 
