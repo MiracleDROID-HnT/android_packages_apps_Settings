@@ -23,4 +23,7 @@
 
     <!-- Storage eject icon -->
     <color name="eject_icon_tint_color">#8a000000</color>
+
+    <!-- Suggestion/condition colors -->
+    <color name="suggestion_tile_background">@*android:color/white</color>
 </resources>
