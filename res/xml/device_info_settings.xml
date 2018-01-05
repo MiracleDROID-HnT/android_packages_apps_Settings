@@ -67,6 +67,11 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/summary_placeholder"/>
 
+        <!-- ElixirOS version -->
+        <Preference android:key="elixir_version"
+                android:title="@string/elixir_version"
+                android:summary="@string/elixir_version_default" />
+
         <!-- Security patch level -->
         <Preference android:key="security_patch"
                 android:title="@string/security_patch"
