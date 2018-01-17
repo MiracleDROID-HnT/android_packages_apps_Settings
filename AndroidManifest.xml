@@ -3292,6 +3292,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="mx.elixir.magicalworld.fragments.HAFRAppListActivity" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
         <activity android:name=".Settings$MagicalWorldActivity"
                   android:label="@string/elixir_settings_title"
