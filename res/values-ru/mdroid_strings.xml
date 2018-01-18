@@ -328,5 +328,8 @@
     <string name="pulse_speed_slow">Медленно</string>
     <string name="pulse_speed_very_slow">Очень медленно</string>
 
+    <string name="force_safe_media_volume_disabled_title">Отключить проверку безопасной громкости</string>
+    <string name="force_safe_media_volume_disabled_summary">Не ограничивать громкость для гарнитуры</string>
+
 </resources>
 

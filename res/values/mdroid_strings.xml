@@ -334,5 +334,8 @@
     <string name="pulse_speed_slow">Slow</string>
     <string name="pulse_speed_very_slow">Very slow</string>
 
+    <string name="force_safe_media_volume_disabled_title">Disable safe volume check</string>
+    <string name="force_safe_media_volume_disabled_summary">Dont limit media volume for headsets</string>
+
 </resources>
 

@@ -329,4 +329,7 @@
     <string name="pulse_speed_slow">Повільно</string>
     <string name="pulse_speed_very_slow">Дуже повільно</string>
 
+    <string name="force_safe_media_volume_disabled_title">Вимкнути перевірку безпечної гучності</string>
+    <string name="force_safe_media_volume_disabled_summary">Не обмежувати гучність для гарнітури</string>
+
 </resources>
