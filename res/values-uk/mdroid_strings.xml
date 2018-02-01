@@ -324,4 +324,7 @@
     <string name="changelog_mdroid_summary">Перегляд останніх змін</string>
     <string name="changelog_mdroid_error">Неможливо завантажити історію змін</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Показати історію сповіщень</string>
+
 </resources>

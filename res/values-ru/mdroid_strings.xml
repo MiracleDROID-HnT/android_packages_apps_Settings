@@ -323,5 +323,8 @@
     <string name="changelog_mdroid_summary">Просмотр последних изменений</string>
     <string name="changelog_mdroid_error">Невозможно загрузить историю изменений</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Показать историю уведомлений</string>
+
 </resources>
 
