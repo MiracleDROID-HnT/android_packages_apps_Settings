@@ -119,7 +119,10 @@ public class DashboardSummary extends InstrumentedFragment
         super.onResume();
 
         ((SettingsDrawerActivity) getActivity()).addCategoryListener(this);
-        mSummaryLoader.setListening(true);
+        // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, begin
+        // move to 'onStart()'.
+        // mSummaryLoader.setListening(true);
+        // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, end
         final int metricsCategory = getMetricsCategory();
         for (Condition c : mConditionManager.getConditions()) {
             if (c.shouldShow()) {
@@ -139,7 +142,10 @@ public class DashboardSummary extends InstrumentedFragment
         Log.d(TAG, "onPause(), Stopped listening for condition changes");
         mConditionManager.remListener(this);
         ((SettingsDrawerActivity) getActivity()).remCategoryListener(this);
-        mSummaryLoader.setListening(false);
+        // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, begin
+        // move to 'onStop()'.
+        // mSummaryLoader.setListening(false);
+        // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, end
         for (Condition c : mConditionManager.getConditions()) {
             if (c.shouldShow()) {
                 mMetricsFeatureProvider.hidden(getContext(), c.getMetricsConstant());
@@ -149,6 +155,19 @@ public class DashboardSummary extends InstrumentedFragment
             mAdapter.onPause();
         }
     }
+    // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, begin
+    @Override
+    public void onStart() {
+        super.onStart();
+        mSummaryLoader.setListening(true);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        mSummaryLoader.setListening(false);
+    }
+    // Settings, Won't refresh when Fragment 'onPause()', 2018-2-3, end
 
     @Override
     public void onWindowFocusChanged(boolean hasWindowFocus) {
