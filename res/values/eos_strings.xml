@@ -22,7 +22,7 @@
     <string name="elixir_version_default">Unknown</string>
     
     <string name="elixir_settings_title">Magical World</string>
-    <string name="elixir_settings_summary">Customize your Android</string>
+    <string name="elixir_settings_summary">Way to Magical World</string>
 
     <!-- Encryption and credential -->
     <string name="custom_encryption_and_credential_settings_summary_on">Device is encrypted</string>
