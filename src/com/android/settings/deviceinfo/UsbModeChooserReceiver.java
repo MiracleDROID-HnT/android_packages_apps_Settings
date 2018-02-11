@@ -23,6 +23,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.hardware.usb.UsbManager;
 import android.os.SystemProperties;
+import android.os.UserHandle;
+import android.os.UserManager;
+import android.provider.Settings;
 
 import android.util.Log;
 
@@ -45,8 +48,10 @@ public class UsbModeChooserReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
+        final boolean usbModeToggle = Settings.System.getIntForUser(context.getContentResolver(),
+            Settings.System.SHOW_USB_MODE_DIALOG, 1, UserHandle.USER_CURRENT) == 1;
 
-        if(action != null) {
+        if(action != null && usbModeToggle) {
             if (UsbManager.ACTION_USB_STATE.equals(action)) {
                 boolean plugged = intent.getBooleanExtra(UsbManager.USB_CONNECTED, false);
                 boolean configured = intent.getBooleanExtra(UsbManager.USB_CONFIGURED, false);

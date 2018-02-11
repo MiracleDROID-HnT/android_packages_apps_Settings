@@ -200,6 +200,12 @@
             android:entries="@array/usb_configuration_titles"
             android:entryValues="@array/usb_configuration_values" />
 
+        <com.android.settings.elixir.SystemSettingSwitchPreference
+            android:key="show_usb_mode_dialog"
+            android:title="@string/usb_mode_dialog_show_title"
+            android:summary="@string/usb_mode_dialog_show_summary"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="bluetooth_show_devices_without_names"
             android:title="@string/bluetooth_show_devices_without_names"
