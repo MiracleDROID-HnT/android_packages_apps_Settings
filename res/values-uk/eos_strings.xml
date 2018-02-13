@@ -91,7 +91,7 @@
     <string name="increasing_ring_min_volume_title">Початкова гучність</string>
     <string name="increasing_ring_ramp_up_time_title">Час наростання гучності</string>
 
-    <string name="link_volume_option_title">Link ring and notification volume</string>
+    <string name="link_volume_option_title">"Зв'язати гучність дзвінка та cповіщень"</string>
 
     <!-- USB mode dialog -->
     <string name="usb_mode_dialog_show_title">Показувати діалог вибору режиму USB</string>
