@@ -304,4 +304,7 @@
     <string name="lockscreen_vibrate_enabled_title">Вибрація</string>
     <string name="lockscreen_vibrate_enabled_head">Вібрувати при розблокуванні</string>
 
+    <!-- Seekbar default text -->
+    <string name="custom_seekbar_default_text">За замовч.</string>
+
 </resources>

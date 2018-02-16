@@ -303,5 +303,8 @@
     <string name="lockscreen_vibrate_enabled_title">Вибрация</string>
     <string name="lockscreen_vibrate_enabled_head">Вибрировать при разблокировке</string>
 
+    <!-- Seekbar default text -->
+    <string name="custom_seekbar_default_text">По умолч.</string>
+
 </resources>
 

@@ -309,6 +309,8 @@
     <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
     <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
 
+    <!-- Seekbar default text -->
+    <string name="custom_seekbar_default_text">Default</string>
 
 </resources>
 
