@@ -93,5 +93,9 @@
 
     <string name="link_volume_option_title">Link ring and notification volume</string>
 
+    <!-- USB mode dialog -->
+    <string name="usb_mode_dialog_show_title">Show USB mode dialog</string>
+    <string name="usb_mode_dialog_show_summary">Shows a chooser dialog when your device is connected to PC via USB</string>
+
 </resources>
 
