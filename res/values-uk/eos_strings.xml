@@ -97,4 +97,11 @@
     <string name="usb_mode_dialog_show_title">Показувати діалог вибору режиму USB</string>
     <string name="usb_mode_dialog_show_summary">"Показує діалог вибору режиму, коли пристрій підключається до комп'ютера через USB"</string>
 
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB по мережі</string>
+    <string name="adb_over_network_summary">Увімкнути налагодження TCP/IP через мережеві інтерфейси (Wi-Fi, USB мережі). Це налаштування скидається при перезавантаженні</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">УВАГА: коли включене налагодження по мережі, пристрій відкритий для неконтрольованого доступу з усіх підключених мереж!
+\n\nВикористовуйте цю функцію тільки тоді, коли ви підключені до довірених мереж.\n\nВи дійсно хочете включити цю функцію?</string>
+
 </resources>
