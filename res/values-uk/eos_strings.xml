@@ -104,4 +104,12 @@
     <string name="adb_over_network_warning">УВАГА: коли включене налагодження по мережі, пристрій відкритий для неконтрольованого доступу з усіх підключених мереж!
 \n\nВикористовуйте цю функцію тільки тоді, коли ви підключені до довірених мереж.\n\nВи дійсно хочете включити цю функцію?</string>
 
+    <string name="dashboard_conditions_title">Повідомлення в головному меню</string>
+    <string name="summary_dashboard_conditions_enabled">Повідомлення в головному меню увімкнені</string>
+    <string name="summary_dashboard_conditions_disabled">Повідомлення в головному меню вимкнені</string>
+
+    <string name="dashboard_suggestions_title">Підказки в головному меню</string>
+    <string name="summary_dashboard_suggestions_enabled">Підказки в головному меню увімкнені</string>
+    <string name="summary_dashboard_suggestions_disabled">Підказки в головному меню вимкнені</string>
+
 </resources>
