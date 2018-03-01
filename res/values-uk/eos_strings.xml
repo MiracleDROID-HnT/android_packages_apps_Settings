@@ -185,4 +185,9 @@
     <string name="value_equals_default">замовч.</string>
     <string name="show_light_on_zen_title">Ввімкнути світлодіод в режимі «Не турбувати»</string>
 
+    <!-- Font picker -->
+    <string name="font_picker_title">Шрифт</string>
+    <string name="font_subs_info">Перед використанням обов\'язково вимкніть в Substratum кожен накладений шрифт.\Якщо ви хочете повернутися до використання Substratum, обов\'язково виберіть шрифт за замовчуванням (Roboto) в даних настройках.</string>
+    <string name="font_picker_reboot_recommended">Для оптимальної роботи,\nперезавантажте пристрій</string>
+
 </resources>
