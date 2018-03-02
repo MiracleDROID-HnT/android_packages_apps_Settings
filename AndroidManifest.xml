@@ -3314,6 +3314,18 @@
                        android:resource="@string/elixir_settings_summary"/>
         </activity>
 
+        <!-- Style -->
+        <activity android:name="Settings$StylePreferencesActivity"
+                android:label="@string/style_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="mx.elixir.magicalworld.fragments.style.StylePreferences" />
+        </activity>
+
         <!-- Root Application -->
         <activity android:name="Settings$RootManagementActivity"
                   android:label="@string/rootmanagement_title"

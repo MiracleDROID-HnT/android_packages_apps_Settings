@@ -133,6 +133,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import mx.elixir.magicalworld.MagicalWorld;
+import mx.elixir.magicalworld.fragments.style.StylePreferences;
 
 public class SettingsGateway {
 
@@ -256,6 +257,7 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             MagicalWorld.class.getName(),
+            StylePreferences.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -295,5 +297,6 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MagicalWorldActivity.class.getName(),
+            Settings.StylePreferencesActivity.class.getName(),
     };
 }
