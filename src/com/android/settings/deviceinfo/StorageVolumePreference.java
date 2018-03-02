@@ -18,6 +18,7 @@ package com.android.settings.deviceinfo;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.storage.StorageManager;
@@ -110,7 +111,7 @@ public class StorageVolumePreference extends Preference {
     public void onBindViewHolder(PreferenceViewHolder view) {
         final ImageView unmount = (ImageView) view.findViewById(R.id.unmount);
         if (unmount != null) {
-            unmount.setImageTintList(ColorStateList.valueOf(Color.parseColor("#8a000000")));
+            unmount.setImageTintList(ColorStateList.valueOf(getContext().getColor(R.color.eject_icon_tint_color)));
             unmount.setOnClickListener(mUnmountListener);
         }
 
