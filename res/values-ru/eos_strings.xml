@@ -103,6 +103,8 @@
     <!-- Warning for Adb over Network -->
     <string name="adb_over_network_warning">ВНИМАНИЕ: когда включена отладка по сети, устройство открыто для неконтролируемого доступа из всех подключённых сетей!\n\nИспользуйте эту функцию только тогда, когда вы подключены к доверенным сетям.\n\nВы действительно хотите включить эту функцию?</string>
 
+    <!-- Dashboard -->
+    <string name="dashboard_label">Главное меню</string>
     <string name="dashboard_conditions_title">Уведомления в главном меню</string>
     <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
     <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>

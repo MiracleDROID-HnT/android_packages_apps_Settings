@@ -46,12 +46,6 @@
             android:title="@string/doze_title"
             android:summary="@string/doze_summary" />
 
-        <Preference
-            android:key="force_ambient_for_media_pref"
-            android:fragment="mx.elixir.magicalworld.fragments.AmbientTicker"
-            android:title="@string/force_ambient_for_media_pref_title"
-            android:summary="@string/force_ambient_for_media_pref_summary"/>
-
     </PreferenceCategory>
 
 </PreferenceScreen>
