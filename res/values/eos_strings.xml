@@ -112,8 +112,8 @@
     <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>
 
     <!-- OTA -->
-    <string name="eosupdate_settings_title">ElixirOS updates</string>
-    <string name="eosupdate_settings_summary">Find new updates</string>
+    <string name="eosupdate_settings_title">Check for Updates</string>
+    <string name="eosupdate_settings_summary">ElixirOS update center</string>
 
 </resources>
 
