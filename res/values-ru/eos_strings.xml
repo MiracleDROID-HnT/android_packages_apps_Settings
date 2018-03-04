@@ -113,5 +113,9 @@
     <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
     <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
 
+    <!-- OTA -->
+    <string name="eosupdate_settings_title">Проверка обновлений</string>
+    <string name="eosupdate_settings_summary">Обновление ElixirOS</string>
+
 </resources>
 
