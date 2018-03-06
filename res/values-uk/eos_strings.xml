@@ -118,4 +118,7 @@
     <string name="eosupdate_settings_title">Перевірка оновлень</string>
     <string name="eosupdate_settings_summary">Оновлення ElixirOS</string>
 
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Звуки регулювання гучності</string>
+
 </resources>

@@ -117,5 +117,8 @@
     <string name="eosupdate_settings_title">Check for Updates</string>
     <string name="eosupdate_settings_summary">ElixirOS update center</string>
 
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+
 </resources>
 
