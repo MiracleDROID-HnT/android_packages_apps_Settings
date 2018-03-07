@@ -121,4 +121,14 @@
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Звуки регулювання гучності</string>
 
+    <!-- Display rotation -->
+    <string name="display_rotation_title">Параметри обертання</string>
+    <string name="display_rotation_disabled">Автоповорот вимкнуто</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режими обертання</string>
+    <string name="display_rotation_0_title">0 градусів</string>
+    <string name="display_rotation_90_title">90 градусів</string>
+    <string name="display_rotation_180_title">180 градусів</string>
+    <string name="display_rotation_270_title">270 градусів</string>
+
 </resources>
