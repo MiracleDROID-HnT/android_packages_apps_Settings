@@ -130,5 +130,6 @@
     <string name="display_rotation_90_title">90 градусів</string>
     <string name="display_rotation_180_title">180 градусів</string>
     <string name="display_rotation_270_title">270 градусів</string>
+    <string name="display_lockscreen_rotation_title">Обертати екран блокування</string>
 
 </resources>
