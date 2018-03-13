@@ -135,4 +135,7 @@
     <!-- Phone info shortcut -->
     <string name="device_info_title">Інформація про телефон</string>
 
+    <!-- Vibrate on plug -->
+    <string name="vibrate_on_plug_title">Вібрувати при підключенні зарядки</string>
+
 </resources>
