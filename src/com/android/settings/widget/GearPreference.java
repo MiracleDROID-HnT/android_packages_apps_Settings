@@ -53,6 +53,10 @@ public class GearPreference extends RestrictedPreference implements View.OnClick
     @Override
     public void onBindViewHolder(PreferenceViewHolder holder) {
         super.onBindViewHolder(holder);
+        final View divider = holder.findViewById(R.id.two_target_divider);
+        if (divider != null) {
+            divider.setVisibility(View.GONE);
+        }
         final View gear = holder.findViewById(R.id.settings_button);
         if (mOnGearClickListener != null) {
             gear.setVisibility(View.VISIBLE);
