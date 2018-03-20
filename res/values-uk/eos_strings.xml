@@ -138,4 +138,51 @@
     <!-- Vibrate on plug -->
     <string name="vibrate_on_plug_title">Вібрувати при підключенні зарядки</string>
 
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Вибір кольору</string>
+    <string name="press_color_to_apply">Натисність на колір. щоб застосувати</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">За замовчуванням</string>
+
+    <!-- Battery Light -->
+    <string name="battery_light_title">Індикація батареї</string>
+    <string name="battery_light_title_summary_on">Індикація заряду батареї увімкнена</string>
+    <string name="battery_light_title_summary_off">Індикація заряду батареї вимкнена</string>
+    <string name="battery_light_description">Ввімкнення/вимкнення індикатора заряду батареї або зміна його поведінки</string>
+    <string name="battery_low_pulse_title">Блимати при низькому заряді</string>
+    <string name="battery_low_pulse_title_summary">Блимати при низькому рівні заряду батареї</string>
+    <string name="battery_light_only_full_charge_title">Загорятися тільки при повному заряді</string>
+    <string name="battery_light_only_full_charge_title_summary">Загорятися тільки при повному рівні заряду батареї</string>
+    <string name="battery_light_list_title">Кольори</string>
+    <string name="battery_light_low_color_title">Низький заряд батареї</string>
+    <string name="battery_light_medium_color_title">Заряджається</string>
+    <string name="battery_light_full_color_title">Заряджена на 90%</string>
+    <string name="battery_light_really_full_color_title">Повністю заряджена</string>
+    <string name="fast_color_cat_title">Швидка зарядка</string>
+    <string name="fast_charging_led_enabled_title">Ввімкнути колір швидкої зарядки</string>
+    <string name="fast_charging_led_enabled_summary">Використовувати інший колір до 90% при швидкій зарядці</string>
+    <string name="fast_charging_light_color_title">Колір</string>
+    <string name="fast_charging_light_color_summary"></string>
+    <string name="edit_battery_settings">Редагувати параметри батареї</string>
+    <string name="led_color_green">Зелений</string>
+    <string name="led_color_red">Червоний</string>
+    <string name="led_color_blue">Синій</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Скинути</string>
+
+    <!-- Custom light color -->
+    <string name="light_customization">Індикатор сповіщень</string>
+    <string name="custom_light_title">Колір світлодіода</string>
+    <string name="custom_light_on_time_title">Тривалість світіння світлодіода (мс)</string>
+    <string name="custom_light_off_time_title">Тривалість затухання світлодіода (мс)</string>
+    <string name="app_notifications_info_desc">Натисніть на назву каналу для редагування індикації</string>
+    <string name="value_equals_default">замовч.</string>
+    <string name="show_light_on_zen_title">Ввімкнути світлодіод в режимі «Не турбувати»</string>
+
 </resources>
