@@ -3316,7 +3316,7 @@
         <activity android:name=".Settings$MagicalWorldActivity"
                   android:label="@string/elixir_settings_title"
                   android:icon="@drawable/ic_settings_elixir">
-            <intent-filter android:priority="-1">
+            <intent-filter android:priority="10">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
