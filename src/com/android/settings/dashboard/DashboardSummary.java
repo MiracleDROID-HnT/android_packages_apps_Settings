@@ -216,11 +216,13 @@ public class DashboardSummary extends InstrumentedFragment
             Log.d(TAG, "Suggestion feature is disabled, skipping suggestion entirely");
             updateCategoryAndSuggestion(null /* tiles */);
         } else {
-            new SuggestionLoader().execute();
-            // Set categories on their own if loading suggestions takes too long.
-            mHandler.postDelayed(() -> {
-                updateCategoryAndSuggestion(null /* tiles */);
-            }, MAX_WAIT_MILLIS);
+            if (mSuggestionParser != null) {
+                new SuggestionLoader().execute();
+                // Set categories on their own if loading suggestions takes too long.
+                mHandler.postDelayed(() -> {
+                    updateCategoryAndSuggestion(null /* tiles */);
+                }, MAX_WAIT_MILLIS);
+            }
         }
     }
 
