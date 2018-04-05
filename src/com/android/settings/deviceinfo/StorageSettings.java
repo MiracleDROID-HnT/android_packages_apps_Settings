@@ -77,7 +77,7 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
 
     static final int COLOR_PUBLIC = Color.parseColor("#ff9e9e9e");
 
-    static int[] COLOR_PRIVATE = new int[] {
+    static final int[] COLOR_PRIVATE = new int[] {
             Color.parseColor("#ff26a69a"),
             Color.parseColor("#ffab47bc"),
             Color.parseColor("#fff2a600"),
@@ -108,7 +108,6 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
         super.onCreate(icicle);
 
         final Context context = getActivity();
-        COLOR_PRIVATE[0] = getResources().getColor(R.color.storage_bar_private_tint_color, null);
 
         mStorageManager = context.getSystemService(StorageManager.class);
         mStorageManager.registerListener(mStorageListener);
