@@ -18,9 +18,6 @@
     <!-- Settings switchbar background -->
     <color name="switchbar_background_color">?android:attr/colorSecondary</color>
 
-    <!-- Storage eject icon -->
-    <color name="eject_icon_tint_color">#8a000000</color>
-
     <!-- Suggestion/condition colors -->
     <color name="suggestion_tile_background">@*android:color/white</color>
     <color name="suggestion_title_text_color">@*android:color/black</color>
