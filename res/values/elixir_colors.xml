@@ -17,7 +17,4 @@
 <resources>
     <!-- Settings switchbar background -->
     <color name="switchbar_background_color">?android:attr/colorSecondary</color>
-
-    <!-- Suggestion/condition colors -->
-    <color name="suggestion_tile_background">@*android:color/white</color>
 </resources>
