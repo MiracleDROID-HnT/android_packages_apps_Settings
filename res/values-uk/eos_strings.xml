@@ -204,4 +204,6 @@
     <string name="expanded_user_configurable">Налаштовується користувачем</string>
     <string name="expanded_desktop_state">Розширений стан</string>
 
+    <string name="screenshot_shutter_sound_title">Звук скріншота</string>
+
 </resources>
