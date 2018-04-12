@@ -204,7 +204,6 @@
     <string name="expanded_desktop_title">Expanded desktop options</string>
 
     <!-- Reset battery stats -->
-    <string name="ok">Okay</string>
     <string name="menu_stats_reset">Reset stats</string>
     <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 
