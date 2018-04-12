@@ -206,4 +206,8 @@
 
     <string name="screenshot_shutter_sound_title">Звук скріншота</string>
 
+    <!-- Reset battery stats -->
+    <string name="menu_stats_reset">Скидання статистики</string>
+    <string name="reset_stats_msg">Історія статистики батареї буде скинута</string>
+
 </resources>
