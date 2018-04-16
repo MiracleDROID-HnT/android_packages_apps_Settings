@@ -40,7 +40,7 @@ import com.android.settings.accounts.AccountSyncSettings;
 import com.android.settings.accounts.ChooseAccountActivity;
 import com.android.settings.accounts.ManagedProfileSettings;
 import com.android.settings.accounts.UserAndAccountDashboardFragment;
-import com.android.settings.elixir.fuelgauge.BatteryLightSettings;
+import com.android.settings.mdroid.fuelgauge.BatteryLightSettings;
 import com.android.settings.applications.DefaultAppSettings;
 import com.android.settings.applications.AppAndNotificationDashboardFragment;
 import com.android.settings.applications.DrawOverlayDetails;
@@ -133,9 +133,9 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
-import mx.elixir.magicalworld.MagicalWorld;
-import mx.elixir.magicalworld.fragments.style.StylePreferences;
-import mx.elixir.magicalworld.fragments.HeadsUpSettings;
+import mx.mdroid.magicalworld.MagicalWorld;
+import mx.mdroid.magicalworld.fragments.style.StylePreferences;
+import mx.mdroid.magicalworld.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 

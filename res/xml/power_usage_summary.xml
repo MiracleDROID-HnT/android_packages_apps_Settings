@@ -62,7 +62,7 @@
         <com.android.settings.widget.MasterSwitchPreference
             android:key="battery_light"
             android:title="@string/battery_light_title"
-            android:fragment="com.android.settings.elixir.fuelgauge.BatteryLightSettings" />
+            android:fragment="com.android.settings.mdroid.fuelgauge.BatteryLightSettings" />
 
         <!-- Cross-listed item, if you change this, also change it in display_settings.xml -->
         <SwitchPreference

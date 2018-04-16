@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.elixir;
+package com.android.settings.mdroid;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;

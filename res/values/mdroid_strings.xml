@@ -18,11 +18,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Rom version -->
-    <string name="elixir_version">ElixirOS Version</string>
-    <string name="elixir_version_default">Unknown</string>
+    <string name="mdroid_version">MiracleDROID Version</string>
+    <string name="mdroid_version_default">Unknown</string>
     
-    <string name="elixir_settings_title">Magical World</string>
-    <string name="elixir_settings_summary">Way to Magical World</string>
+    <string name="mdroid_settings_title">Magical World</string>
+    <string name="mdroid_settings_summary">Way to Magical World</string>
 
     <!-- Encryption and credential -->
     <string name="custom_encryption_and_credential_settings_summary_on">Device is encrypted</string>

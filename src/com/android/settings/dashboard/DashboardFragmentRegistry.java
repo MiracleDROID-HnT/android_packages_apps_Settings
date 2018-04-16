@@ -36,7 +36,7 @@ import com.android.settings.security.LockscreenDashboardFragment;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
-import mx.elixir.magicalworld.MagicalWorld;
+import mx.mdroid.magicalworld.MagicalWorld;
 
 import java.util.Map;
 

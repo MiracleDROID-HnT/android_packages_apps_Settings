@@ -18,11 +18,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Rom version -->
-    <string name="elixir_version">Версия ElixirOS</string>
-    <string name="elixir_version_default">Неизвестно</string>
+    <string name="mdroid_version">Версия MiracleDROID</string>
+    <string name="mdroid_version_default">Неизвестно</string>
 
-    <string name="elixir_settings_title">Magical World</string>
-    <string name="elixir_settings_summary">Путь в Волшебный мир</string>
+    <string name="mdroid_settings_title">Magical World</string>
+    <string name="mdroid_settings_summary">Путь в Волшебный мир</string>
 
     <!-- Encryption and credential -->
     <string name="custom_encryption_and_credential_settings_summary_on">Устройство зашифровано</string>
@@ -112,10 +112,6 @@
     <string name="dashboard_suggestions_title">Подсказки в главном меню</string>
     <string name="summary_dashboard_suggestions_enabled">Подсказки в главном меню включены</string>
     <string name="summary_dashboard_suggestions_disabled">Подсказки в главном меню выключены</string>
-
-    <!-- OTA -->
-    <string name="eosupdate_settings_title">Проверка обновлений</string>
-    <string name="eosupdate_settings_summary">Обновление ElixirOS</string>
 
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Звук при регулировке громкости</string>

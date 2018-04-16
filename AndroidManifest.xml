@@ -2292,7 +2292,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.elixir.fuelgauge.BatteryLightSettings" />
+                android:value="com.android.settings.mdroid.fuelgauge.BatteryLightSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
@@ -3313,21 +3313,21 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="mx.elixir.magicalworld.fragments.HAFRAppListActivity" />
+        <activity android:name="mx.mdroid.magicalworld.fragments.HAFRAppListActivity" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
         <activity android:name=".Settings$MagicalWorldActivity"
-                  android:label="@string/elixir_settings_title"
-                  android:icon="@drawable/ic_settings_elixir">
+                  android:label="@string/mdroid_settings_title"
+                  android:icon="@drawable/ic_settings_mdroid">
             <intent-filter android:priority="10">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
                        android:value="com.android.settings.category.ia.homepage"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="mx.elixir.magicalworld.MagicalWorld"/>
+                       android:value="mx.mdroid.magicalworld.MagicalWorld"/>
             <meta-data android:name="com.android.settings.summary"
-                       android:resource="@string/elixir_settings_summary"/>
+                       android:resource="@string/mdroid_settings_summary"/>
         </activity>
 
         <!-- Style -->
@@ -3339,7 +3339,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="mx.elixir.magicalworld.fragments.style.StylePreferences" />
+                android:value="mx.mdroid.magicalworld.fragments.style.StylePreferences" />
         </activity>
 
         <!-- Root Application -->
@@ -3372,7 +3372,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="mx.elixir.magicalworld.fragments.HeadsUpSettings" />
+                android:value="mx.mdroid.magicalworld.fragments.HeadsUpSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>

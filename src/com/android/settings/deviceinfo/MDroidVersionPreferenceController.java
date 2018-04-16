@@ -23,29 +23,29 @@ import android.text.TextUtils;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
-public class ElixirVersionPreferenceController extends AbstractPreferenceController
+public class MDroidVersionPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin {
 
-    private static final String KEY_ELIXIR_VERSION = "elixir_version";
-    private static final String KEY_ELIXIR_VERSION_PROPERTY = "ro.elixir.version";
+    private static final String KEY_MDROID_VERSION = "mdroid_version";
+    private static final String KEY_MDROID_VERSION_PROPERTY = "ro.mdroid.version";
 
-    public ElixirVersionPreferenceController(Context context) {
+    public MDroidVersionPreferenceController(Context context) {
         super(context);
     }
 
     @Override
     public boolean isAvailable() {
-        return !TextUtils.isEmpty(SystemProperties.get(KEY_ELIXIR_VERSION_PROPERTY));
+        return !TextUtils.isEmpty(SystemProperties.get(KEY_MDROID_VERSION_PROPERTY));
     }
 
     @Override
     public void updateState(Preference preference) {
         super.updateState(preference);
-        preference.setSummary(SystemProperties.get(KEY_ELIXIR_VERSION_PROPERTY));
+        preference.setSummary(SystemProperties.get(KEY_MDROID_VERSION_PROPERTY));
     }
 
     @Override
     public String getPreferenceKey() {
-        return KEY_ELIXIR_VERSION;
+        return KEY_MDROID_VERSION;
     }
 }

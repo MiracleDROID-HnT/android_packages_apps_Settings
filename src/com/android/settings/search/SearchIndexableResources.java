@@ -33,7 +33,7 @@ import com.android.settings.accessibility.AccessibilitySettings;
 import com.android.settings.accessibility.AccessibilityShortcutPreferenceFragment;
 import com.android.settings.accessibility.MagnificationPreferenceFragment;
 import com.android.settings.accounts.UserAndAccountDashboardFragment;
-import com.android.settings.elixir.fuelgauge.BatteryLightSettings;
+import com.android.settings.mdroid.fuelgauge.BatteryLightSettings;
 import com.android.settings.applications.AppAndNotificationDashboardFragment;
 import com.android.settings.applications.DefaultAppSettings;
 import com.android.settings.applications.SpecialAccessSettings;

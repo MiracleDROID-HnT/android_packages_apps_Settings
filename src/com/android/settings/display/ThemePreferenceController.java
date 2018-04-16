@@ -138,7 +138,7 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
             for (int i = 0, size = infos.size(); i < size; i++) {
                 if (infos.get(i).isEnabled() &&
                         isChangeableOverlay(infos.get(i).packageName) &&
-                        !infos.get(i).packageName.equals("mx.elixir.system.theme.dark")) {
+                        !infos.get(i).packageName.equals("mx.mdroid.system.theme.dark")) {
                     return infos.get(i).packageName;
                 }
             }
@@ -168,7 +168,7 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
             List<String> pkgs = new ArrayList(infos.size());
             for (int i = 0, size = infos.size(); i < size; i++) {
                 if (isChangeableOverlay(infos.get(i).packageName)) {
-                    if (!infos.get(i).packageName.equals("mx.elixir.system.theme.dark"))
+                    if (!infos.get(i).packageName.equals("mx.mdroid.system.theme.dark"))
                         pkgs.add(infos.get(i).packageName);
                 }
             }

@@ -14,13 +14,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.android.settings.elixir.SystemSettingSwitchPreference
+    <com.android.settings.mdroid.SystemSettingSwitchPreference
         android:key="battery_light_pulse"
         android:title="@string/battery_low_pulse_title"
         android:summary="@string/battery_low_pulse_title_summary"
         android:persistent="false" />
 
-    <com.android.settings.elixir.SystemSettingSwitchPreference
+    <com.android.settings.mdroid.SystemSettingSwitchPreference
         android:key="battery_light_only_fully_charged"
         android:title="@string/battery_light_only_full_charge_title"
         android:summary="@string/battery_light_only_full_charge_title_summary"
@@ -60,7 +60,7 @@
         android:key="fast_color_cat"
         android:title="@string/fast_color_cat_title">
 
-        <com.android.settings.elixir.SystemSettingSwitchPreference
+        <com.android.settings.mdroid.SystemSettingSwitchPreference
             android:key="fast_charging_led_enabled"
             android:title="@string/fast_charging_led_enabled_title"
             android:summary="@string/fast_charging_led_enabled_summary"

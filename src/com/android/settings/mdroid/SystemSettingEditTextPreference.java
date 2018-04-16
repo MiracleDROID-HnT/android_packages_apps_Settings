@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.elixir;
+package com.android.settings.mdroid;
 
 import android.content.Context;
 import android.support.v7.preference.EditTextPreference;

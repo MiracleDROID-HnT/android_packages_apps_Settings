@@ -31,7 +31,7 @@ import android.util.Log;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
-import com.android.settings.elixir.fuelgauge.BatteryLightSettings;
+import com.android.settings.mdroid.fuelgauge.BatteryLightSettings;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;

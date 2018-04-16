@@ -20,7 +20,7 @@ import android.os.UserHandle;
 import android.support.v7.preference.Preference;
 
 import com.android.internal.hardware.AmbientDisplayConfiguration;
-import com.android.internal.util.elixir.ElixirUtils;
+import com.android.internal.util.mdroid.MDroidUtils;
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -42,7 +42,7 @@ public class AmbientDisplayPreferenceController extends AbstractPreferenceContro
 
     @Override
     public boolean isAvailable() {
-        return mConfig.available() && !ElixirUtils.hasAltAmbientDisplay(mContext.getApplicationContext());
+        return mConfig.available() && !MDroidUtils.hasAltAmbientDisplay(mContext.getApplicationContext());
     }
 
     @Override

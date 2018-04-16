@@ -56,7 +56,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v17.preference \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
-    --extra-packages mx.elixir.magicalworld
+    --extra-packages mx.mdroid.magicalworld
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled

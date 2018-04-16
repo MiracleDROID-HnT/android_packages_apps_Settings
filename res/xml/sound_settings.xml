@@ -60,7 +60,7 @@
                 android:title="@string/vibrate_when_ringing_title" />
 
         <!-- Increasing ring -->
-        <com.android.settings.elixir.SystemSettingSwitchPreference
+        <com.android.settings.mdroid.SystemSettingSwitchPreference
                 android:key="increasing_ring"
                 android:defaultValue="false"
                 android:title="@string/increasing_ring_volume_option_title" />

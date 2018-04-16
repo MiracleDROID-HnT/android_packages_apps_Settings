@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.elixir.fuelgauge;
+package com.android.settings.mdroid.fuelgauge;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -45,7 +45,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
-import com.android.settings.elixir.SystemSettingSwitchPreference;
+import com.android.settings.mdroid.SystemSettingSwitchPreference;
 import com.android.settings.notification.SettingPref;
 import com.android.settings.widget.SwitchBar;
 

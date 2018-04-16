@@ -67,10 +67,10 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/summary_placeholder"/>
 
-        <!-- ElixirOS version -->
-        <Preference android:key="elixir_version"
-                android:title="@string/elixir_version"
-                android:summary="@string/elixir_version_default" />
+        <!-- MiracleDROID version -->
+        <Preference android:key="mdroid_version"
+                android:title="@string/mdroid_version"
+                android:summary="@string/mdroid_version_default" />
 
         <!-- Security patch level -->
         <Preference android:key="security_patch"
