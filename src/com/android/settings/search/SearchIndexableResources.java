@@ -89,6 +89,17 @@ import com.android.settings.wallpaper.WallpaperTypeSettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.WifiSettings;
+import mx.mdroid.magicalworld.fragments.style.StylePreferences;
+import mx.mdroid.magicalworld.fragments.ButtonSettings;
+import mx.mdroid.magicalworld.fragments.GlobalActionsSettings;
+import mx.mdroid.magicalworld.fragments.Lockscreen;
+import mx.mdroid.magicalworld.fragments.NotificationSettings;
+import mx.mdroid.magicalworld.fragments.QuickSettings;
+import mx.mdroid.magicalworld.fragments.RecentsSettings;
+import mx.mdroid.magicalworld.fragments.StatusBarBattery;
+import mx.mdroid.magicalworld.fragments.StatusBarClockSettings;
+import mx.mdroid.magicalworld.fragments.StatusBarSettings;
+import mx.mdroid.magicalworld.fragments.System;
 import java.util.Collection;
 import java.util.HashMap;
 
@@ -219,6 +230,17 @@ public final class SearchIndexableResources {
                 R.drawable.ic_settings_storage);
         addIndex(BatteryLightSettings.class,
                 R.xml.battery_light_settings, R.drawable.ic_settings_battery);
+        addIndex(StylePreferences.class, R.xml.style, R.drawable.ic_settings_style);
+        addIndex(ButtonSettings.class, R.xml.mdroid_settings_button, R.drawable.ic_settings_buttons);
+        addIndex(GlobalActionsSettings.class, R.xml.global_actions, R.drawable.ic_system);
+        addIndex(Lockscreen.class, R.xml.lockscreen, R.drawable.ic_lockscreen);
+        addIndex(NotificationSettings.class, R.xml.mdroid_settings_notifications, R.drawable.ic_settings_notification);
+        addIndex(QuickSettings.class, R.xml.mdroid_settings_quicksettings, R.drawable.ic_settings_quicksettings);
+        addIndex(RecentsSettings.class, R.xml.mdroid_settings_recents, R.drawable.ic_settings_recents);
+        addIndex(StatusBarBattery.class, R.xml.statusbar_battery, R.drawable.ic_settings_statusbar);
+        addIndex(StatusBarClockSettings.class, R.xml.status_bar_clock_settings, R.drawable.ic_settings_statusbar);
+        addIndex(StatusBarSettings.class, R.xml.mdroid_settings_statusbar, R.drawable.ic_settings_statusbar);
+        addIndex(System.class, R.xml.system, R.drawable.ic_system);
     }
 
     private SearchIndexableResources() {
