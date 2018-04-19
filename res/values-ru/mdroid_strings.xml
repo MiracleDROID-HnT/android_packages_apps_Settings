@@ -682,4 +682,8 @@
     <string name="a2dp_source_codec_priority_dialog_title">Выбор приоритетного аудиокодека</string>
     <string name="a2dp_source_codec_priority_default_title">По умолчанию</string>
 
+    <!-- Search -->
+    <string name="menu_search">Поиск приложений</string>
+    <string name="menu_search_hint">Поиск приложений\u2026</string>
+
 </resources>

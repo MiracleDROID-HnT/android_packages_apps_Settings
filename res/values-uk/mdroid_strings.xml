@@ -682,4 +682,8 @@
     <string name="a2dp_source_codec_priority_dialog_title">Вибір пріоритетного кодека для аудіо</string>
     <string name="a2dp_source_codec_priority_default_title">За замовчуванням</string>
 
+    <!-- Search -->
+    <string name="menu_search">Пошук додатків</string>
+    <string name="menu_search_hint">Пошук додатків\u2026</string>
+
 </resources>
