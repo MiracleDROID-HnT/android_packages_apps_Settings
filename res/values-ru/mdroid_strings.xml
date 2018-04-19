@@ -205,5 +205,9 @@
     <string name="menu_stats_reset">Сброс статистики</string>
     <string name="reset_stats_msg">История статистики батареи будет сброшена</string>
 
+    <!-- OTA -->
+    <string name="mdroidupdate_settings_title">Обновление MiracleDROID</string>
+    <string name="mdroidupdate_settings_summary">Проверка обновлений</string>
+
 </resources>
 
