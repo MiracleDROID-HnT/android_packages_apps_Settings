@@ -41,6 +41,7 @@ import com.android.settings.accounts.ChooseAccountActivity;
 import com.android.settings.accounts.ManagedProfileSettings;
 import com.android.settings.accounts.UserAndAccountDashboardFragment;
 import com.android.settings.mdroid.fuelgauge.BatteryLightSettings;
+import com.android.settings.mdroid.profiles.ProfilesSettingsFragment;
 import com.android.settings.applications.DefaultAppSettings;
 import com.android.settings.applications.AppAndNotificationDashboardFragment;
 import com.android.settings.applications.DrawOverlayDetails;
@@ -263,7 +264,8 @@ public class SettingsGateway {
             MagicalWorld.class.getName(),
             StylePreferences.class.getName(),
             HeadsUpSettings.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            ProfilesSettingsFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
