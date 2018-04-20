@@ -210,4 +210,82 @@
     <string name="mdroidupdate_settings_title">Оновлення MiracleDROID</string>
     <string name="mdroidupdate_settings_summary">Перевірка оновлень</string>
 
+    <!-- App Ops Settings -->
+    <!-- App Ops Categories -->
+    <string name="app_ops_cat_location">Місцезнаходження</string>
+    <string name="app_ops_cat_personal">Особисті дані</string>
+    <string name="app_ops_cat_messaging">SMS/MMS</string>
+    <string name="app_ops_cat_media">Мультимедіа</string>
+    <string name="app_ops_cat_device">Пристрій</string>
+    <string name="app_ops_cat_bootup">Автозавантаження</string>
+
+    <!-- App ops requests -->
+    <string name="app_ops_access_camera">камера</string>
+    <string name="app_ops_access_location">місцезнаходження</string>
+    <string name="app_ops_access_notifications">сповіщення</string>
+    <string name="app_ops_activate_vpn">VPN</string>
+    <string name="app_ops_auto_start">автозапуск</string>
+    <string name="app_ops_delete_call_log">видаляти журнал викликів</string>
+    <string name="app_ops_delete_contacts">видаляти контакти</string>
+    <string name="app_ops_delete_mms">видаляти MMS</string>
+    <string name="app_ops_delete_sms">видаляти SMS</string>
+    <string name="app_ops_draw_on_top">відображати поверх</string>
+    <string name="app_ops_get_usage_stats">статистика використання</string>
+    <string name="app_ops_keep_device_awake">не вимикати</string>
+    <string name="app_ops_make_phone_call">дзвонити</string>
+    <string name="app_ops_modify_calendar">змінювати календар</string>
+    <string name="app_ops_modify_call_log">змінювати журнал викликів</string>
+    <string name="app_ops_modify_clipboard">змінювати буфер обміну</string>
+    <string name="app_ops_modify_contacts">змінювати контакти</string>
+    <string name="app_ops_modify_settings">змінювати налаштування</string>
+    <string name="app_ops_mute_unmute_microphone">вимик/вмик мікрофон</string>
+    <string name="app_ops_play_audio">відтворювати аудіо</string>
+    <string name="app_ops_post_notification">показувати сповіщення</string>
+    <string name="app_ops_project_media">здійснювати трансляцію</string>
+    <string name="app_ops_read_calendar">читати календар</string>
+    <string name="app_ops_read_call_log">читати журнал викликів</string>
+    <string name="app_ops_read_clipboard">читати буфер обміну</string>
+    <string name="app_ops_read_contacts">читати контакти</string>
+    <string name="app_ops_read_mms">читати MMS</string>
+    <string name="app_ops_read_sms">читати SMS</string>
+    <string name="app_ops_receive_sms">отримувати SMS</string>
+    <string name="app_ops_record_audio">записувати аудіо</string>
+    <string name="app_ops_send_mms">відправляти MMS</string>
+    <string name="app_ops_send_sms">відправляти SMS</string>
+    <string name="app_ops_toast_window">виринаючі сповіщення</string>
+    <string name="app_ops_use_alarm_volume">змінювати гучність будильника</string>
+    <string name="app_ops_use_audio_focus">змінювати аудіофокус</string>
+    <string name="app_ops_use_bluetooth_volume">змінювати гучність Bluetooth-пристроїв</string>
+    <string name="app_ops_use_master_volume">змінювати загальну гучність</string>
+    <string name="app_ops_use_media_buttons">використ. кнопки мультимедіа</string>
+    <string name="app_ops_use_media_volume">змінювати гучність мультимедіа</string>
+    <string name="app_ops_use_notification_volume">змінювати гучність сповіщень</string>
+    <string name="app_ops_use_ring_volume">змінювати гучність дзвінка</string>
+    <string name="app_ops_use_vibrate">вібровідгук</string>
+    <string name="app_ops_use_voice_volume">змінювати гучність розмови</string>
+    <string name="app_ops_write_mms">створювати MMS</string>
+    <string name="app_ops_write_sms">створювати SMS</string>
+    <string name="app_ops_use_fingerprint">використовувати відбитки</string>
+    <string name="app_ops_add_voicemail">голосова пошта</string>
+    <string name="app_ops_read_phone_state">стан телефона</string>
+    <string name="app_ops_scan_wifi">сканування WiFi мереж</string>
+    <string name="app_ops_change_wallpaper">зміна шпалер</string>
+    <string name="app_ops_assist_structure">допоміжний скріншот</string>
+    <string name="app_ops_assist_screenshot">робити скріншот</string>
+    <string name="app_ops_use_body_sensors">натільні сенсори</string>
+    <string name="app_ops_read_cell_broadcasts">оповіщення населення</string>
+    <string name="app_ops_mock_location">фіктивне місцезнаходження</string>
+    <string name="app_ops_read_external_storage">зчитувати з зовніш. носій</string>
+    <string name="app_ops_write_external_storage">записувати на зовніш. носій</string>
+    <string name="app_ops_turn_on_screen">вмикати екран</string>
+    <string name="app_ops_get_accounts">отримувати аккаунт</string>
+    <string name="app_ops_run_in_background">запуск в фоновому режимі</string>
+    <string name="app_ops_accessibility_volume">доступ до гучності</string>
+    <string name="app_ops_read_phone_numbers">читання тел. номера</string>
+    <string name="app_ops_request_install_packages">встановлення додат.</string>
+    <string name="app_ops_picture_in_picture">карт. в карт.</string>
+    <string name="app_ops_app_start_foreground">запуск на перед. плані</string>
+    <string name="app_ops_answer_phone_calls">відповідати на виклик</string>
+    <string name="app_ops_boot_completed">автозавантаження</string>
+
 </resources>
