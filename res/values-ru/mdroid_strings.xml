@@ -318,5 +318,10 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">Фоновые процессы</string>
 
+    <!-- MDroid changelog -->
+    <string name="changelog_mdroid_title">История изменений</string>
+    <string name="changelog_mdroid_summary">Просмотр последних изменений</string>
+    <string name="changelog_mdroid_error">Невозможно загрузить историю изменений</string>
+
 </resources>
 
