@@ -307,4 +307,10 @@
     <!-- Seekbar default text -->
     <string name="custom_seekbar_default_text">За замовч.</string>
 
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Мобільна передача даних</string>
+    <string name="data_usage_app_restrict_data_summary">Увімкнути доступ до мобільної передачі даних</string>
+    <string name="data_usage_app_restrict_wifi">Передача даних по Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Увімкнути передачу даних по Wi\u2011Fi</string>
+
 </resources>

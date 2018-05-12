@@ -306,5 +306,11 @@
     <!-- Seekbar default text -->
     <string name="custom_seekbar_default_text">По умолч.</string>
 
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Мобильная передача данных</string>
+    <string name="data_usage_app_restrict_data_summary">Включить доступ к мобильной передаче данных</string>
+    <string name="data_usage_app_restrict_wifi">Передача данных по Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить передачу данных по Wi\u2011Fi</string>
+
 </resources>
 
