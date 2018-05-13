@@ -692,4 +692,6 @@
     <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
     <string name="bluetooth_accept_all_files">Приймати всі типи файлів</string>
 
+    <string name="color_picker_simple_dialog_title">Колір індикатора сповіщень</string>
+
 </resources>
