@@ -77,6 +77,7 @@ import com.android.settings.deviceinfo.SimStatus;
 import com.android.settings.deviceinfo.Status;
 import com.android.settings.deviceinfo.StorageDashboardFragment;
 import com.android.settings.deviceinfo.StorageSettings;
+import com.android.settings.display.AmbientDisplaySettings;
 import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.dream.DreamSettings;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
@@ -267,7 +268,8 @@ public class SettingsGateway {
             HeadsUpSettings.class.getName(),
             RunningServices.class.getName(),
             ProfilesSettingsFragment.class.getName(),
-            ButtonSettings.class.getName()
+            ButtonSettings.class.getName(),
+            AmbientDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
