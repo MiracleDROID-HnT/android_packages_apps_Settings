@@ -20,12 +20,14 @@ package net.margaritov.preference.colorpicker;
 import android.app.AlertDialog;
 import android.app.NotificationManager;
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -33,6 +35,8 @@ import android.widget.LinearLayout;
 import com.android.settings.R;
 
 public class ColorPickerDialog extends AlertDialog implements ColorPickerView.OnColorChangedListener, View.OnClickListener {
+
+    private final static int RECOMMENDED_COLORS_COLUMN_NUM = 4;
 
     private ColorPickerView mColorPicker;
     private ColorPickerPanelView mOldColor;
@@ -92,6 +96,10 @@ public class ColorPickerDialog extends AlertDialog implements ColorPickerView.On
         mColorPicker.setColor(color, true);
         showLed(color);
 
+        String[] colors = getContext().getResources().getStringArray(R.array.led_color_picker_dialog_colors);
+        LinearLayout baseView = (LinearLayout)layout.findViewById(R.id.base_view);
+        setUpColorButtons(colors, baseView);
+
         if (mHex != null) {
             mHex.setText(ColorPickerPreference.convertToARGB(color));
         }
@@ -120,6 +128,67 @@ public class ColorPickerDialog extends AlertDialog implements ColorPickerView.On
         } catch (Exception ignored) {
         }
         showLed(color);
+    }
+
+    private LinearLayout createRecommendedColorsLayout(LinearLayout baseView) {
+        return (LinearLayout) baseView.findViewById(R.id.recommended_colors);
+    }
+
+    private LinearLayout createRowColorsLayout() {
+        LinearLayout rowColorsLayout = new LinearLayout(getContext());
+
+        rowColorsLayout.setOrientation(LinearLayout.HORIZONTAL);
+        rowColorsLayout.setWeightSum(100.0f);
+
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+
+        rowColorsLayout.setLayoutParams(layoutParams);
+
+        return rowColorsLayout;
+    }
+
+    private Button createColorButton(String color) {
+        Button button = new Button(getContext());
+
+        button.setBackgroundColor(Color.parseColor("#" + color));
+
+        final float scale = getContext().getResources().getDisplayMetrics().density;
+
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(0, (int)(50 * scale + 0.5f), 25.0f);
+        //50 - hight in dp, 25.0f - % filling with one button (25 - 4 buttons, must divide 100 without residue)
+        button.setLayoutParams(params);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    int newColor = ColorPickerPreference.convertToColorInt(color);
+                    mColorPicker.setColor(newColor, true);
+                } catch (Exception ignored) {
+                }
+            }
+        });
+
+        return button;
+    }
+
+    private void setUpColorButtons(String[] colors, LinearLayout baseView) {
+        LinearLayout recommendedColorsLayout = createRecommendedColorsLayout(baseView);
+
+        int columns_num = RECOMMENDED_COLORS_COLUMN_NUM;
+        int rows_num    = (colors.length + columns_num - 1) / columns_num;
+
+        for (int row = 0; row != rows_num; row++) {
+            LinearLayout rowLayout = createRowColorsLayout();
+            recommendedColorsLayout.addView(rowLayout);
+
+            for (int column = 0; column != columns_num; column++) {
+                int colorIndex = (row * columns_num) + column;
+                if (colorIndex >= colors.length) break;
+                Button button = createColorButton(colors[colorIndex]);
+                rowLayout.addView(button);
+            }
+        }
     }
 
     private void showLed(int color) {

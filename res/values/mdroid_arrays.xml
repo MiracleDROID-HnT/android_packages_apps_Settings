@@ -243,4 +243,24 @@
         <item>@string/app_ops_boot_completed</item>
     </string-array>
 
+    <!-- Values for recommended preset colors -->
+    <string-array name="led_color_picker_dialog_colors">
+        <!-- white -->
+        <item>ffffff</item>
+        <!-- red -->
+        <item>ff0000</item>
+        <!-- green -->
+        <item>00ff00</item>
+        <!-- blue -->
+        <item>0000ff</item>
+        <!-- yellow -->
+        <item>ffff00</item>
+        <!-- magenta -->
+        <item>ff00ff</item>
+        <!-- deepskyblue -->
+        <item>00bfff</item>
+        <!-- orange -->
+        <item>ffa500</item>
+    </string-array>
+
 </resources>
