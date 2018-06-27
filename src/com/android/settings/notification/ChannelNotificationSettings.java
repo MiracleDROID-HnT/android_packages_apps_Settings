@@ -224,8 +224,13 @@ public class ChannelNotificationSettings extends NotificationSettingsBase {
         //find light prefs
         mLights = (RestrictedSwitchPreference) findPreference(KEY_LIGHTS);
         mCustomLight = (ColorPickerPreference) findPreference(KEY_CUSTOM_LIGHT);
+        boolean ledTiming = getResources().getBoolean(R.bool.config_notificationLedTiming);
         mLightOnTime =(ListPreference) findPreference(KEY_LIGHTS_ON_TIME);
         mLightOffTime = (ListPreference) findPreference(KEY_LIGHTS_OFF_TIME);
+        if (!ledTiming) {
+            mLightsCategory.removePreference(mLightOnTime);
+            mLightsCategory.removePreference(mLightOffTime);
+        }
         mLightOnZen = (SwitchPreference) findPreference(KEY_LIGHT_ON_ZEN);
         mLights.setDisabledByAdmin(mSuspendedAppsAdmin);
         mLights.setChecked(mChannel.shouldShowLights());
