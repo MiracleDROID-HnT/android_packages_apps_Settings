@@ -57,7 +57,7 @@ public class FontListAdapter extends BaseAdapter {
         mContext = context;
         mInflater = LayoutInflater.from(context);
         mFontService = IFontService.Stub.asInterface(
-                ServiceManager.getService("eosfont"));
+                ServiceManager.getService("mdfont"));
         mPm = context.getPackageManager();
         loadFontList();
     }

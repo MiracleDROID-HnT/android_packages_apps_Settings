@@ -48,7 +48,7 @@ public class FontDialogPreference extends CustomDialogPreference {
         super(context, attrs);
         mContext = context;
         mFontService = IFontService.Stub.asInterface(
-                ServiceManager.getService("eosfont"));
+                ServiceManager.getService("mdfont"));
         mFirstTimeDialog = mContext.getSharedPreferences("FONT_CHOOSER", Context.MODE_PRIVATE).getBoolean("firstTimeFontDialog", true);
     }
 
