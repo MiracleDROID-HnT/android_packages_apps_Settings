@@ -327,4 +327,10 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Показати історію сповіщень</string>
 
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Об\'єм ОЗП</string>
+
 </resources>
