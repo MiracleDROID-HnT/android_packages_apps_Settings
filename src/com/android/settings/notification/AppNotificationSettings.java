@@ -26,6 +26,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v14.preference.SwitchPreference;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.text.TextUtils;
@@ -35,7 +36,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Switch;
 
-import com.android.settings.mdroid.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.Utils;
@@ -83,8 +83,8 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     private PreferenceCategory mLightCategory;
     private RestrictedSwitchPreference mLights;
     private ColorPickerPreference mCustomLight;
-    private CustomSeekBarPreference mLightOnTime;
-    private CustomSeekBarPreference mLightOffTime;
+    private ListPreference mLightOnTime;
+    private ListPreference mLightOffTime;
     private SwitchPreference mLightOnZen;
 
     private int mLedColor = 0;
@@ -155,8 +155,8 @@ public class AppNotificationSettings extends NotificationSettingsBase {
         //find light prefs
         mLights = (RestrictedSwitchPreference) findPreference(KEY_LIGHTS);
         mCustomLight = (ColorPickerPreference) findPreference(KEY_CUSTOM_LIGHT);
-        mLightOnTime =(CustomSeekBarPreference) findPreference(KEY_LIGHTS_ON_TIME);
-        mLightOffTime = (CustomSeekBarPreference) findPreference(KEY_LIGHTS_OFF_TIME);
+        mLightOnTime =(ListPreference) findPreference(KEY_LIGHTS_ON_TIME);
+        mLightOffTime = (ListPreference) findPreference(KEY_LIGHTS_OFF_TIME);
         mLightOnZen = (SwitchPreference) findPreference(KEY_LIGHT_ON_ZEN);
         mLights.setDisabledByAdmin(mSuspendedAppsAdmin);
         mLights.setChecked(mChannel.shouldShowLights());
@@ -214,11 +214,13 @@ public class AppNotificationSettings extends NotificationSettingsBase {
                 com.android.internal.R.integer.config_defaultNotificationLedOn);
         mLightOnTime.setDefaultValue(defaultLightOn);
         lightOn = lightOn == 0 ? defaultLightOn : lightOn;
-        mLightOnTime.setValue(lightOn);
+        String strLightOn = Integer.toString(lightOn);
+        mLightOnTime.setValue(strLightOn);
         mLightOnTime.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override
             public boolean onPreferenceChange(Preference preference, Object newValue) {
-                int val = (Integer) newValue;
+                String strValue = (String) newValue;
+                int val = Integer.parseInt(strValue);
                 mChannel.setLightOnTime(val);
                 mBackend.updateChannel(mPkg, mUid, mChannel);
                 showLedPreview();
@@ -231,11 +233,13 @@ public class AppNotificationSettings extends NotificationSettingsBase {
                 com.android.internal.R.integer.config_defaultNotificationLedOff);
         mLightOffTime.setDefaultValue(defaultLightOff);
         lightOff = lightOff == 0 ? defaultLightOff : lightOff;
-        mLightOffTime.setValue(lightOff);
+        String strLightOff = Integer.toString(lightOff);
+        mLightOffTime.setValue(strLightOff);
         mLightOffTime.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override
             public boolean onPreferenceChange(Preference preference, Object newValue) {
-                int val = (Integer) newValue;
+                String strValue = (String) newValue;
+                int val = Integer.parseInt(strValue);
                 mChannel.setLightOffTime(val);
                 mBackend.updateChannel(mPkg, mUid, mChannel);
                 showLedPreview();

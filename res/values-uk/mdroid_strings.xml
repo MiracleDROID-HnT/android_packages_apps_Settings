@@ -178,8 +178,8 @@
     <!-- Custom light color -->
     <string name="light_customization">Індикатор сповіщень</string>
     <string name="custom_light_title">Колір світлодіода</string>
-    <string name="custom_light_on_time_title">Тривалість світіння світлодіода (мс)</string>
-    <string name="custom_light_off_time_title">Тривалість затухання світлодіода (мс)</string>
+    <string name="custom_light_on_time_title">Тривалість світіння світлодіода</string>
+    <string name="custom_light_off_time_title">Тривалість затухання світлодіода</string>
     <string name="app_notifications_info_desc">Натисніть на назву каналу для редагування індикації</string>
     <string name="value_equals_default">замовч.</string>
     <string name="show_light_on_zen_title">Ввімкнути світлодіод в режимі «Не турбувати»</string>
@@ -332,5 +332,18 @@
     <string name="platform_revision">Платформа</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Об\'єм ОЗП</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Завжди увімкнено</string>
+    <string name="pulse_length_very_short">Дуже коротко</string>
+    <string name="pulse_length_short">Коротко</string>
+    <string name="pulse_length_normal">Нормально</string>
+    <string name="pulse_length_long">Довго</string>
+    <string name="pulse_length_very_long">Дуже довго</string>
+    <string name="pulse_speed_very_fast">Дуже швидко</string>
+    <string name="pulse_speed_fast">Швидко</string>
+    <string name="pulse_speed_normal">Нормальний</string>
+    <string name="pulse_speed_slow">Повільно</string>
+    <string name="pulse_speed_very_slow">Дуже повільно</string>
 
 </resources>
