@@ -66,4 +66,10 @@ public class SystemSettingSwitchPreference extends SwitchPreference {
         // instead of catching an exception. (All values are stored as strings.)
         return Settings.System.getString(getContext().getContentResolver(), getKey()) != null;
     }
+
+    @Override
+    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
+        setChecked(Settings.System.getString(getContext().getContentResolver(), getKey()) != null ? getPersistedBoolean(isChecked())
+                : (Boolean) defaultValue);
+    }
 }
