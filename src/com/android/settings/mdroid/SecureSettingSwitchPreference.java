@@ -31,7 +31,7 @@ public class SecureSettingSwitchPreference extends SwitchPreference {
     }
 
     public SecureSettingSwitchPreference(Context context) {
-        super(context);
+        super(context, null);
     }
 
     @Override
@@ -61,17 +61,5 @@ public class SecureSettingSwitchPreference extends SwitchPreference {
         // Using getString instead of getInt so we can simply check for null
         // instead of catching an exception. (All values are stored as strings.)
         return Settings.Secure.getString(getContext().getContentResolver(), getKey()) != null;
-    }
-
-
-    @Override
-    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        // This is what default TwoStatePreference implementation is doing without respecting
-        // real default value:
-        //setChecked(restoreValue ? getPersistedBoolean(mChecked)
-        //        : (Boolean) defaultValue);
-        // Instead, we better do
-        setChecked(restoreValue ? getPersistedBoolean((Boolean) defaultValue)
-                : (Boolean) defaultValue);
     }
 }
