@@ -5,7 +5,6 @@
 -keep public class com.android.settings.** extends android.app.Fragment
 
 -keep class mx.mdroid.magicalworld.**
--keep class com.android.settings.extended.**
 
 # We want to keep methods in Activity that could be used in the XML attribute onClick.
 -keepclassmembers class * extends android.app.Activity {
