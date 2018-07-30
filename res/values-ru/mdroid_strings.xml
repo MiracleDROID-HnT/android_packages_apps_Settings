@@ -694,4 +694,23 @@
 
     <string name="color_picker_simple_dialog_title">Цвет индикатора уведомлений</string>
 
+    <!-- Time In State & CPU State -->
+    <string name="state_time_mode">Активный режим</string>
+    <string name="since_boot">загрузки</string>
+    <string name="since_charged">зарядки</string>
+    <string name="since_reset">сброса</string>
+    <string name="create_ref">Сброс</string>
+    <string name="spinner_period_title">Начиная с</string>
+    <string name="state_core_mode">Ядра</string>
+    <string name="total_time">Всего</string>
+    <string name="no_stat_because_reset_state">Нажмите кнопку сброса, чтобы начать сбор данных о времени с момента включения</string>
+    <string name="no_states_file_found">Файл состояний не найден. Вы уверены, что Ваш телефон поддерживается?
+Если Вы используете кастомную прошивку или ядро, сообщите разработчику о недоступном файле состояний.</string>
+    <string name="deep_sleep">"Глубокий сон"</string>
+    <string name="mt_refresh">Обновить</string>
+    <string name="mt_share">Поделиться</string>
+    <string name="mt_reset">Сброс</string>
+    <string name="time_in_state_title">Время работы</string>
+    <string name="time_in_state_summary">Показать статистику частот процессора</string>
+
 </resources>

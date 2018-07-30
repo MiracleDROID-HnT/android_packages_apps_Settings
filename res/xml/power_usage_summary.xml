@@ -45,6 +45,12 @@
         android:title="@string/battery_temp_title"
         android:selectable="false" />
 
+    <Preference
+        android:key="time_in_state"
+        android:title="@string/time_in_state_title"
+        android:summary="@string/time_in_state_summary"
+        android:fragment="com.android.settings.fuelgauge.TimeInState" />
+
     <PreferenceCategory
         android:key="power_management"
         android:title="@string/battery_power_management">

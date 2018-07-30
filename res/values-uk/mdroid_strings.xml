@@ -694,4 +694,25 @@
 
     <string name="color_picker_simple_dialog_title">Колір індикатора сповіщень</string>
 
+    <!-- Time In State & CPU State -->
+    <string name="state_time_mode">Активний режим</string>
+    <string name="since_boot">завантаження</string>
+    <string name="since_charged">зарядки</string>
+    <string name="since_reset">скидання</string>
+    <string name="create_ref">Скинути</string>
+    <string name="spinner_period_title">Починаючи з</string>
+    <string name="state_core_mode">Ядра</string>
+    <string name="total_time">Всього</string>
+    <string name="no_stat_because_reset_state">Натисніть на клавішу скидання для початку збору даних стану</string>
+    <string name="no_states_file_found">Не знайдено файл станів. Ви впевнені, що ваш телефон
+    сумісний?\n\nЯкщо ви використовуєте кастомну прошивку або ядро, спробуйте
+    зв\'язатися з розробником і повідомити йому, що файл станів неможливо
+    прочитати.</string>
+    <string name="deep_sleep">"Глибокий сон"</string>
+    <string name="mt_refresh">Оновити</string>
+    <string name="mt_share">Поділитися</string>
+    <string name="mt_reset">Скинути</string>
+    <string name="time_in_state_title">Час роботи</string>
+    <string name="time_in_state_summary">Показати статистику частоти процесора</string>
+
 </resources>

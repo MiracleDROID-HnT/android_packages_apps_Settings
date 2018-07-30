@@ -559,4 +559,9 @@
         <item>5</item>
     </string-array>
 
+    <string-array name="period_type_entries">
+        <item>@string/since_reset</item>
+        <item>@string/since_boot</item>
+    </string-array>
+
 </resources>
