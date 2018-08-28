@@ -138,6 +138,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import mx.mdroid.magicalworld.MagicalWorld;
 import mx.mdroid.magicalworld.fragments.style.StylePreferences;
 import mx.mdroid.magicalworld.fragments.HeadsUpSettings;
+import mx.mdroid.magicalworld.fragments.ButtonSettings;
 
 public class SettingsGateway {
 
@@ -265,7 +266,8 @@ public class SettingsGateway {
             StylePreferences.class.getName(),
             HeadsUpSettings.class.getName(),
             RunningServices.class.getName(),
-            ProfilesSettingsFragment.class.getName()
+            ProfilesSettingsFragment.class.getName(),
+            ButtonSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

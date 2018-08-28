@@ -3346,6 +3346,18 @@
 
         <activity android:name="mx.mdroid.magicalworld.fragments.HAFRAppListActivity" />
 
+        <!-- Button settings activity. -->
+        <activity android:name="Settings$ButtonSettingsActivity"
+                android:label="@string/button_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="mx.mdroid.magicalworld.fragments.ButtonSettings" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
         <activity android:name=".Settings$MagicalWorldActivity"
                   android:label="@string/mdroid_settings_title"
