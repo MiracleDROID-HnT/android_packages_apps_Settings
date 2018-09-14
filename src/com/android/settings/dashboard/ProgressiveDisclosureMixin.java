@@ -16,8 +16,10 @@
 
 package com.android.settings.dashboard;
 
+import android.content.ContentResolver;
 import android.content.Context;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.annotation.VisibleForTesting;
 import android.support.v14.preference.PreferenceFragment;
 import android.support.v7.preference.Preference;
@@ -44,6 +46,7 @@ public class ProgressiveDisclosureMixin implements Preference.OnPreferenceClickL
 
     private static final String TAG = "ProgressiveDisclosure";
     private static final String STATE_USER_EXPANDED = "state_user_expanded";
+    private static final String FORCE_EXPANDED_SETTINGS = "force_expanded_settings";
     private static final int DEFAULT_TILE_LIMIT = 300;
 
     private final Context mContext;
@@ -55,6 +58,7 @@ public class ProgressiveDisclosureMixin implements Preference.OnPreferenceClickL
 
     private int mTileLimit = DEFAULT_TILE_LIMIT;
     private boolean mUserExpanded;
+    private boolean mForceExpanded;
 
     public ProgressiveDisclosureMixin(Context context,
             PreferenceFragment fragment, boolean keepExpanded) {
@@ -120,7 +124,9 @@ public class ProgressiveDisclosureMixin implements Preference.OnPreferenceClickL
      * Whether the screen should be collapsed.
      */
     public boolean shouldCollapse(PreferenceScreen screen) {
-        return !mUserExpanded && screen.getPreferenceCount() > mTileLimit;
+        mForceExpanded = Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.FORCE_EXPANDED_SETTINGS, 0) != 0;
+        return !mForceExpanded && !mUserExpanded && screen.getPreferenceCount() > mTileLimit;
     }
 
     /**
