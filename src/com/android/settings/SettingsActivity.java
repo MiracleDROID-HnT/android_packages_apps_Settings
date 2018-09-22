@@ -925,7 +925,11 @@ public class SettingsActivity extends SettingsDrawerActivity
             try {
                 mRootSupport = getPackageManager().getPackageInfo((String) mRootManagers[i][0], 0).versionCode >= (int) mRootManagers[i][2];
                 mRootPackage = (String) mRootManagers[i][0];
-                mRootClass = (String) mRootManagers[i][1];
+                if (mRootPackage == "com.topjohnwu.magisk" && getPackageManager().getPackageInfo(mRootPackage, 0).versionCode >= 147) {
+                    mRootClass = "a.c";
+                } else {
+                    mRootClass = (String) mRootManagers[i][1];
+                }
                 if (mRootSupport) return true;
             } catch (PackageManager.NameNotFoundException e) {
             }
