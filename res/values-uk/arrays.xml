@@ -476,26 +476,12 @@
     <item msgid="6652164677254579050">"Кеш (порожньо)"</item>
   </string-array>
   <string-array name="color_picker">
-    <item>Бурштиновий</item>
-    <item>Чорний</item>
-    <item>Синій</item>
-    <item>Світло-синій</item>
-    <item>Брунатний</item>
-    <item>Ціан</item>
-    <item>Зелений</item>
-    <item>Світло-зелений</item>
-    <item>Сірий</item>
-    <item>Синьо-сірий</item>
-    <item>Індиго</item>
-    <item>Лайм</item>
-    <item>Помаранчевий</item>
-    <item>Темно-помаранчевий</item>
-    <item>Рожевий</item>
-    <item>Пурпуровий</item>
-    <item>Темно-пурпуровий</item>
-    <item>Червоний</item>
-    <item>Зеленувато-блакитний</item>
-    <item>Жовтий</item>
+    <item msgid="7631642672260600032">"Бірюзовий"</item>
+    <item msgid="8332294763632946560">"Синій"</item>
+    <item msgid="2023216417616991392">"Індиго"</item>
+    <item msgid="3170497246594232819">"Пурпуровий"</item>
+    <item msgid="4608643045752965568">"Рожевий"</item>
+    <item msgid="6131821495505931173">"Червоний"</item>
   </string-array>
   <string-array name="automatic_storage_management_days">
     <item msgid="687318592238852312">"Старіші за 30 днів"</item>
