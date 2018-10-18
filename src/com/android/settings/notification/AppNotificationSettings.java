@@ -220,6 +220,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
                 com.android.internal.R.integer.config_defaultNotificationLedOn);
         mLightOnTime.setDefaultValue(defaultLightOn);
         lightOn = lightOn == 0 ? defaultLightOn : lightOn;
+        mChannel.setLightOnTime(lightOn);
         String strLightOn = Integer.toString(lightOn);
         mLightOnTime.setValue(strLightOn);
         mLightOnTime.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
@@ -239,6 +240,7 @@ public class AppNotificationSettings extends NotificationSettingsBase {
                 com.android.internal.R.integer.config_defaultNotificationLedOff);
         mLightOffTime.setDefaultValue(defaultLightOff);
         lightOff = lightOff == 0 ? defaultLightOff : lightOff;
+        mChannel.setLightOffTime(lightOff);
         String strLightOff = Integer.toString(lightOff);
         mLightOffTime.setValue(strLightOff);
         mLightOffTime.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
