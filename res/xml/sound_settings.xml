@@ -97,6 +97,16 @@
         settings:allowDividerAbove="true"
         android:order="-99" />
 
+    <!-- Phone ringtone for Slot2 -->
+    <com.android.settings.DefaultRingtonePreference
+        android:key="ringtone2"
+        android:title="@string/ringtone2_title"
+        android:dialogTitle="@string/ringtone_title"
+        android:summary="@string/summary_placeholder"
+        android:ringtoneType="ringtone"
+        settings:allowDividerAbove="false"
+        android:order="-98"/>
+
     <!-- Default notification ringtone -->
     <com.android.settings.DefaultRingtonePreference
         android:key="notification_ringtone"
@@ -104,7 +114,7 @@
         android:dialogTitle="@string/notification_ringtone_title"
         android:summary="@string/summary_placeholder"
         android:ringtoneType="notification"
-        android:order="-98"/>
+        android:order="-97"/>
 
     <!-- Default alarm ringtone -->
     <com.android.settings.DefaultRingtonePreference
@@ -114,7 +124,7 @@
         android:summary="@string/summary_placeholder"
         android:persistent="false"
         android:ringtoneType="alarm"
-        android:order="-97"/>
+        android:order="-96"/>
 
     <!-- Other sounds -->
     <PreferenceCategory

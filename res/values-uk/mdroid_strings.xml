@@ -540,4 +540,10 @@
     <string name="privacy_guard_advanced_settings_title">Розширені параметри</string>
     <string name="privacy_guard_notification_title">Сповіщення</string>
 
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Мелодія телефона - SIM 1</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Мелодія телефона - SIM 2</string>
+
 </resources>
