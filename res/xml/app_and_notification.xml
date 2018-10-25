@@ -43,6 +43,7 @@
     <!-- Empty category to draw divider -->
     <PreferenceCategory
         android:key="all_app_info_divider"
+        android:layout="@layout/preference_category_no_label"
         android:order="-190"/>
 
     <Preference
