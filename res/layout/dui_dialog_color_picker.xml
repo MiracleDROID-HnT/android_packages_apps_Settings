@@ -25,21 +25,6 @@
     android:padding="@dimen/alert_dialog_padding_material"
     android:orientation="vertical">
 
-    <net.margaritov.preference.colorpicker.ColorPickerView
-        android:id="@+id/color_picker_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:tag="portrait" />
-
-        <LinearLayout
-            android:id="@+id/recommended_colors"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginTop="4dp"
-            android:orientation="vertical" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,6 +56,21 @@
             android:src="@drawable/ic_action_set" />
 
     </LinearLayout>
+
+    <net.margaritov.preference.colorpicker.ColorPickerView
+        android:id="@+id/color_picker_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="portrait" />
+
+        <LinearLayout
+            android:id="@+id/recommended_colors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical" />
 
     <TextView
         android:layout_width="match_parent"
