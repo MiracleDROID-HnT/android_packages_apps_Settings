@@ -211,22 +211,16 @@ public class SimPreferenceDialog extends Activity {
             int iconSize = res.getDimensionPixelSize(R.dimen.color_swatch_size);
             int strokeWidth = res.getDimensionPixelSize(R.dimen.color_swatch_stroke_width);
 
-            if (convertView == null) {
-                // Cache views for faster scrolling
-                rowView = inflater.inflate(mResId, null);
-                holder = new ViewHolder();
-                ShapeDrawable drawable = new ShapeDrawable(new OvalShape());
-                drawable.setIntrinsicHeight(iconSize);
-                drawable.setIntrinsicWidth(iconSize);
-                drawable.getPaint().setStrokeWidth(strokeWidth);
-                holder.label = (TextView) rowView.findViewById(R.id.color_text);
-                holder.icon = (ImageView) rowView.findViewById(R.id.color_icon);
-                holder.swatch = drawable;
-                rowView.setTag(holder);
-            } else {
-                rowView = convertView;
-                holder = (ViewHolder) rowView.getTag();
-            }
+            rowView = inflater.inflate(mResId, null);
+            holder = new ViewHolder();
+            ShapeDrawable drawable = new ShapeDrawable(new OvalShape());
+            drawable.setIntrinsicHeight(iconSize);
+            drawable.setIntrinsicWidth(iconSize);
+            drawable.getPaint().setStrokeWidth(strokeWidth);
+            holder.label = (TextView) rowView.findViewById(R.id.color_text);
+            holder.icon = (ImageView) rowView.findViewById(R.id.color_icon);
+            holder.swatch = drawable;
+            rowView.setTag(holder);
 
             holder.label.setText(getItem(position));
             holder.swatch.getPaint().setColor(mTintArr[position]);
