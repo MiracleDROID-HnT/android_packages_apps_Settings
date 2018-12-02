@@ -66,7 +66,7 @@
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Яскравість</string>
-    <string name="night_brightness_value_title">меншення яскравості, якщо ввімкнено Нічний режим</string>
+    <string name="night_brightness_value_title">Зменшення яскравості, якщо ввімкнено Нічний режим</string>
     <string name="night_bright_disabled">Вимкнено</string>
     <string name="night_bright_minimum">Мінімальна яскравість</string>
     <string name="night_bright_low">Низька яскравість</string>
