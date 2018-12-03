@@ -41,6 +41,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsActivity;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.SubSettings;
+import com.android.settings.Utils;
 import com.android.settings.mdroid.profiles.triggers.NfcTriggerFragment;
 
 public class SetupTriggersFragment extends SettingsPreferenceFragment {
@@ -143,12 +144,7 @@ public class SetupTriggersFragment extends SettingsPreferenceFragment {
 
         TabLayout tabLayout = (TabLayout) root.findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mPager);
-
-/*        PagerTabStrip tabs = (PagerTabStrip) root.findViewById(R.id.tabs);
-        TypedValue colorAccent = new TypedValue();
-        getPrefContext().getTheme().resolveAttribute(com.android.internal.R.attr.colorAccent,
-                colorAccent, true);
-        tabs.setTabIndicatorColorResource(colorAccent.resourceId);*/
+        tabLayout.setSelectedTabIndicatorColor(Utils.getColorAccent(getPrefContext()));
 
         if (mNewProfileMode) {
             if(hasNextButton()){
