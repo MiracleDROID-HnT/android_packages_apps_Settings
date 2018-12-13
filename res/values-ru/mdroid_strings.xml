@@ -59,7 +59,7 @@
     <string name="sub_activate_success">SIM-карта включена.</string>
     <string name="sub_activate_failed">Ошибка включения.</string>
     <string name="sub_deactivate_success">SIM-карта отключена. Чтобы скрыть значок, воспользуйтесь соответствующим переключателем, который расположен ниже</string>
-    <string name="sub_deactivate_failed">ООшибка при отключении.</string>
+    <string name="sub_deactivate_failed">Ошибка при отключении.</string>
 
     <string name="no_sim_cluster_switch_title">Скрыть неактивную сеть</string>
     <string name="no_sim_cluster_switch_summary">Скрыть панель сети, если sim-карта неактивна и выключена. Если sim-карта не выключена, эта опция не будет работать</string>
