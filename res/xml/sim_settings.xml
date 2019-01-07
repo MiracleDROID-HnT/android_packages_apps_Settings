@@ -31,7 +31,7 @@
         <Preference android:key="sim_sms"
             android:title="@string/sms_messages_title" />
 
-        <com.android.settings.mdroid.SystemSettingSwitchPreference
+        <mx.mdroid.magicalworld.preferences.SystemSettingSwitchPreference
             android:key="no_sim_cluster_switch"
             android:title="@string/no_sim_cluster_switch_title"
             android:summary="@string/no_sim_cluster_switch_summary"

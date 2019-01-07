@@ -19,7 +19,7 @@
     android:key="profiles_settings"
     android:title="@string/sp_profiles_settings_title" >
 
-    <com.android.settings.mdroid.SystemSettingSwitchPreference
+    <mx.mdroid.magicalworld.preferences.SystemSettingSwitchPreference
         android:key="system_profiles_enabled"
         android:title="@string/sp_on"
         android:disableDependentsState="true"/>

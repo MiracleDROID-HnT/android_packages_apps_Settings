@@ -45,7 +45,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
-import com.android.settings.mdroid.SystemSettingSwitchPreference;
+import mx.mdroid.magicalworld.preferences.SystemSettingSwitchPreference;
 import com.android.settings.notification.SettingPref;
 import com.android.settings.widget.SwitchBar;
 

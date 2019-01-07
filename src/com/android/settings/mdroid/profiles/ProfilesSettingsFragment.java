@@ -50,7 +50,7 @@ import com.android.settings.R;
 import com.android.settings.SubSettings;
 import com.android.settings.dashboard.SummaryLoader;
 
-import com.android.settings.mdroid.SystemSettingSwitchPreference;
+import mx.mdroid.magicalworld.preferences.SystemSettingSwitchPreference;
 
 import java.util.List;
 import java.util.UUID;
