@@ -692,5 +692,9 @@
     <string name="menu_search">Search apps</string>
     <string name="menu_search_hint">Search apps\u2026</string>
 
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
+
 </resources>
 

@@ -114,6 +114,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
     //private static final String KEY_SCREEN_TIMEOUT = "screen_timeout_battery";
     //private static final String KEY_AMBIENT_DISPLAY = "ambient_display_battery";
     private static final String KEY_BATTERY_SAVER_SUMMARY = "battery_saver_summary";
+    private static final String KEY_BATTERY_TEMP = "battery_temp";
     private static final String KEY_HIGH_USAGE = "high_usage";
 
     @VisibleForTesting
@@ -140,6 +141,8 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @VisibleForTesting
     PowerGaugePreference mLastFullChargePref;
     @VisibleForTesting
+    PowerGaugePreference mBatteryTemp;
+    @VisibleForTesting
     PowerUsageFeatureProvider mPowerFeatureProvider;
     @VisibleForTesting
     BatteryUtils mBatteryUtils;
@@ -156,6 +159,8 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @VisibleForTesting
     private AnomalySummaryPreferenceController mAnomalySummaryPreferenceController;
     private int mStatsType = BatteryStats.STATS_SINCE_CHARGED;
+
+    private boolean batteryTemp = false;
 
     private LoaderManager.LoaderCallbacks<List<Anomaly>> mAnomalyLoaderCallbacks =
             new LoaderManager.LoaderCallbacks<List<Anomaly>>() {
@@ -260,6 +265,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         mScreenUsagePref = (PowerGaugePreference) findPreference(KEY_SCREEN_USAGE);
         mLastFullChargePref = (PowerGaugePreference) findPreference(
                 KEY_TIME_SINCE_LAST_FULL_CHARGE);
+        mBatteryTemp = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.battery_footer_summary);
         mAnomalySummaryPreferenceController = new AnomalySummaryPreferenceController(
                 (SettingsActivity) getActivity(), this, MetricsEvent.FUELGAUGE_POWER_USAGE_SUMMARY);
@@ -320,6 +326,16 @@ public class PowerUsageSummary extends PowerUsageBase implements
         if (KEY_BATTERY_HEADER.equals(preference.getKey())) {
             performBatteryHeaderClick();
             return true;
+        } else if (KEY_BATTERY_TEMP.equals(preference.getKey())) {
+            if (batteryTemp) {
+                mBatteryTemp.setSubtitle(
+                    com.android.internal.util.cr.CrUtils.batteryTemperature(getContext(), false));
+                batteryTemp = false;
+            } else {
+                mBatteryTemp.setSubtitle(
+                    com.android.internal.util.cr.CrUtils.batteryTemperature(getContext(), true));
+                batteryTemp = true;
+            }
         } else if (!(preference instanceof PowerGaugePreference)) {
             return super.onPreferenceTreeClick(preference);
         }
@@ -612,6 +628,9 @@ public class PowerUsageSummary extends PowerUsageBase implements
         updateHeaderPreference(batteryInfo);
 
         refreshAppListGroup();
+
+        mBatteryTemp.setSubtitle(
+                com.android.internal.util.mdroid.MDroidUtils.batteryTemperature(getContext(), batteryTemp));
     }
 
     private void refreshAppListGroup() {

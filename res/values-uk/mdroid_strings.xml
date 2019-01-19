@@ -686,4 +686,8 @@
     <string name="menu_search">Пошук додатків</string>
     <string name="menu_search_hint">Пошук додатків\u2026</string>
 
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Температура батареї</string>
+    <string name="battery_temp_summary">Натисніть, щоб переключити одиницю вимірювання</string>
+
 </resources>

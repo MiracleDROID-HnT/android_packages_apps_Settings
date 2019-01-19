@@ -686,4 +686,8 @@
     <string name="menu_search">Поиск приложений</string>
     <string name="menu_search_hint">Поиск приложений\u2026</string>
 
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Температура батареи</string>
+    <string name="battery_temp_summary">Нажмите, чтобы переключить единицу измерения</string>
+
 </resources>
