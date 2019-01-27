@@ -274,6 +274,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
 
         restartBatteryInfoLoader();
         restoreSavedInstance(icicle);
+        updateBatteryTempPreference();
     }
 
     @Override
@@ -327,15 +328,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
             performBatteryHeaderClick();
             return true;
         } else if (KEY_BATTERY_TEMP.equals(preference.getKey())) {
-            if (batteryTemp) {
-                mBatteryTemp.setSubtitle(
-                    com.android.internal.util.cr.CrUtils.batteryTemperature(getContext(), false));
-                batteryTemp = false;
-            } else {
-                mBatteryTemp.setSubtitle(
-                    com.android.internal.util.cr.CrUtils.batteryTemperature(getContext(), true));
-                batteryTemp = true;
-            }
+            updateBatteryTempPreference();
         } else if (!(preference instanceof PowerGaugePreference)) {
             return super.onPreferenceTreeClick(preference);
         }
@@ -628,9 +621,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         updateHeaderPreference(batteryInfo);
 
         refreshAppListGroup();
-
-        mBatteryTemp.setSubtitle(
-                com.android.internal.util.mdroid.MDroidUtils.batteryTemperature(getContext(), batteryTemp));
+        updateBatteryTempPreference();
     }
 
     private void refreshAppListGroup() {
@@ -777,6 +768,19 @@ public class PowerUsageSummary extends PowerUsageBase implements
         mLastFullChargePref.setSubtitle(
                 TextUtils.expandTemplate(getText(R.string.power_last_full_charge_summary),
                         timeSequence));
+    }
+
+    @VisibleForTesting
+    void updateBatteryTempPreference() {
+        if (batteryTemp) {
+            mBatteryTemp.setSubtitle(
+                com.android.internal.util.mdroid.MDroidUtils.batteryTemperature(getContext(), false));
+            batteryTemp = false;
+        } else {
+            mBatteryTemp.setSubtitle(
+                com.android.internal.util.mdroid.MDroidUtils.batteryTemperature(getContext(), true));
+            batteryTemp = true;
+        }
     }
 
     @VisibleForTesting
