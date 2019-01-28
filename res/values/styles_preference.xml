@@ -39,4 +39,8 @@
     <style name="BatteryLightPreference" parent="Preference.SettingsBase">
         <item name="android:layout">@layout/preference_battery_light</item>
     </style>
+
+    <style name="SoundPreferenceCategoryStyle" parent="@style/Preference.Category.SettingsBase">
+        <item name="android:layout">@layout/sound_preference_category</item>
+    </style>
 </resources>
