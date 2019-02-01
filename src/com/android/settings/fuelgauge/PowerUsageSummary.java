@@ -160,8 +160,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     private AnomalySummaryPreferenceController mAnomalySummaryPreferenceController;
     private int mStatsType = BatteryStats.STATS_SINCE_CHARGED;
 
-    private boolean batteryTemp = false;
-
     private LoaderManager.LoaderCallbacks<List<Anomaly>> mAnomalyLoaderCallbacks =
             new LoaderManager.LoaderCallbacks<List<Anomaly>>() {
 
@@ -274,7 +272,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
 
         restartBatteryInfoLoader();
         restoreSavedInstance(icicle);
-        updateBatteryTempPreference();
     }
 
     @Override
@@ -327,8 +324,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
         if (KEY_BATTERY_HEADER.equals(preference.getKey())) {
             performBatteryHeaderClick();
             return true;
-        } else if (KEY_BATTERY_TEMP.equals(preference.getKey())) {
-            updateBatteryTempPreference();
         } else if (!(preference instanceof PowerGaugePreference)) {
             return super.onPreferenceTreeClick(preference);
         }
@@ -621,7 +616,11 @@ public class PowerUsageSummary extends PowerUsageBase implements
         updateHeaderPreference(batteryInfo);
 
         refreshAppListGroup();
-        updateBatteryTempPreference();
+
+        mBatteryTemp.setSubtitle(
+                com.android.internal.util.mdroid.MDroidUtils.mccCheck(getContext()) ?
+                com.android.internal.util.mdroid.MDroidUtils.batteryTemperature(getContext(), true) + "°F" :
+                com.android.internal.util.mdroid.MDroidUtils.batteryTemperature(getContext(), false) + "°C");
     }
 
     private void refreshAppListGroup() {
@@ -768,19 +767,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
         mLastFullChargePref.setSubtitle(
                 TextUtils.expandTemplate(getText(R.string.power_last_full_charge_summary),
                         timeSequence));
-    }
-
-    @VisibleForTesting
-    void updateBatteryTempPreference() {
-        if (batteryTemp) {
-            mBatteryTemp.setSubtitle(
-                com.android.internal.util.mdroid.MDroidUtils.batteryTemperature(getContext(), false));
-            batteryTemp = false;
-        } else {
-            mBatteryTemp.setSubtitle(
-                com.android.internal.util.mdroid.MDroidUtils.batteryTemperature(getContext(), true));
-            batteryTemp = true;
-        }
     }
 
     @VisibleForTesting
