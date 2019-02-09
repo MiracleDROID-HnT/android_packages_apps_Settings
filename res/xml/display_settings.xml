@@ -155,12 +155,6 @@
                 android:targetClass="com.custom.ambient.display.DozeSettings" />
         </Preference>
 
-        <Preference
-            android:key="force_ambient_for_media_pref"
-            android:fragment="mx.mdroid.magicalworld.fragments.AmbientTicker"
-            android:title="@string/force_ambient_for_media_pref_title"
-            android:summary="@string/force_ambient_for_media_pref_summary"/>
-
     </PreferenceCategory>
 
     <PreferenceCategory
