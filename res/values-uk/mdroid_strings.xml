@@ -676,4 +676,8 @@
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Накладання на екран поточної інформації процесора</string>
 
+    <string name="a2dp_source_codec_priority_title">Пріоритетний кодек для аудіо Bluetooth</string>
+    <string name="a2dp_source_codec_priority_dialog_title">Вибір пріоритетного кодека для аудіо</string>
+    <string name="a2dp_source_codec_priority_default_title">За замовчуванням</string>
+
 </resources>

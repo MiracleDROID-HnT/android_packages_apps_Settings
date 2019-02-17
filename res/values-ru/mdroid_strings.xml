@@ -676,4 +676,8 @@
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Отображать на экране текущую информацию о процессоре</string>
 
+    <string name="a2dp_source_codec_priority_title">Приоритетный аудиокодек для передачи через Bluetooth</string>
+    <string name="a2dp_source_codec_priority_dialog_title">Выбор приоритетного аудиокодека</string>
+    <string name="a2dp_source_codec_priority_default_title">По умолчанию</string>
+
 </resources>

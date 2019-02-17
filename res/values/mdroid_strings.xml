@@ -684,5 +684,9 @@
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
 
+    <string name="a2dp_source_codec_priority_title">a2dp prefered codec</string>
+    <string name="a2dp_source_codec_priority_dialog_title">Select a2dp prefered codec</string>
+    <string name="a2dp_source_codec_priority_default_title">Default</string>
+
 </resources>
 

@@ -541,4 +541,22 @@
         <item>@string/sp_profile_lockmode_disabled_summary</item>
     </string-array>
 
+    <string-array name="a2dp_source_codec_priority_entries">
+        <item>@string/a2dp_source_codec_priority_default_title</item>
+        <item>LDAC</item>
+        <item>aptX HD</item>
+        <item>aptX</item>
+        <item>AAC</item>
+        <item>SBC</item>
+    </string-array>
+
+    <string-array name="a2dp_source_codec_priority_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
 </resources>

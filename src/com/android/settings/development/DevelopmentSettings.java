@@ -266,6 +266,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
     private static final int[] MOCK_LOCATION_APP_OPS = new int[]{AppOpsManager.OP_MOCK_LOCATION};
 
+    private static final String A2DP_SOURCE_CODEC_PRIORITY = "a2dp_source_codec_priority";
+
     private IWindowManager mWindowManager;
     private IBackupManager mBackupManager;
     private IWebViewUpdateService mWebViewUpdateService;
@@ -369,6 +371,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private final ArrayList<Preference> mAllPrefs = new ArrayList<>();
 
     private final ArrayList<SwitchPreference> mResetSwitchPrefs = new ArrayList<>();
+
+    private ListPreference mA2dpSourceCodecPriorityPref;
 
     private final HashSet<Preference> mDisabledPrefs = new HashSet<>();
     // To track whether a confirmation dialog was clicked.
@@ -625,6 +629,13 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         }
 
         addDashboardCategoryPreferences();
+
+        mA2dpSourceCodecPriorityPref = (ListPreference) findPreference(A2DP_SOURCE_CODEC_PRIORITY);
+        int mA2dpSourceCodecPriorityValue = Settings.System.getInt(getContext().getContentResolver(),
+                Settings.System.A2DP_SOURCE_CODEC_PRIORITY, 0);
+        mA2dpSourceCodecPriorityPref.setValue(Integer.toString(mA2dpSourceCodecPriorityValue));
+        mA2dpSourceCodecPriorityPref.setSummary(mA2dpSourceCodecPriorityPref.getEntry());
+        mA2dpSourceCodecPriorityPref.setOnPreferenceChangeListener(this);
     }
 
     @VisibleForTesting
@@ -2777,6 +2788,13 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             } else {
                 writeRootAccessOptions(newValue);
             }
+            return true;
+        } else if (preference == mA2dpSourceCodecPriorityPref) {
+            int mA2dpSourceCodecPriorityValue = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContext().getContentResolver(), Settings.System.A2DP_SOURCE_CODEC_PRIORITY,
+                    mA2dpSourceCodecPriorityValue);
+            int valueIndex = mA2dpSourceCodecPriorityPref.findIndexOfValue((String) newValue);
+            mA2dpSourceCodecPriorityPref.setSummary(mA2dpSourceCodecPriorityPref.getEntries()[valueIndex]);
             return true;
         }
         return false;
