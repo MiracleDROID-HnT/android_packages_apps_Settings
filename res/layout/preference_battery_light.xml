@@ -42,7 +42,7 @@
             android:textAppearance="?android:attr/textAppearanceListItem"
             android:ellipsize="marquee" />
 
-        <TextView android:id="@+android:id/summary"
+        <TextView android:id="@+id/summary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:minHeight="24dp"
