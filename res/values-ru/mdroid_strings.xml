@@ -713,4 +713,11 @@
     <string name="time_in_state_title">Время работы</string>
     <string name="time_in_state_summary">Показать статистику частот процессора</string>
 
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Умная зарядка</string>
+    <string name="smart_charging_summary">Установить максимальный уровень зарядки</string>
+    <string name="smart_charging_switch_title">Включить умную зарядку</string>
+    <string name="smart_charging_level_title">Уровень ограничения</string>
+    <string name="smart_charging_footer">Умная зарядка позволяет вам установить максимальный уровень зарядки, чтобы продлить срок службы вашей батареи</string>
+
 </resources>
