@@ -633,4 +633,9 @@
     <string name="a2dp_source_codec_priority_title">Kodek A2DP</string>
     <string name="a2dp_source_codec_priority_dialog_title">Wybierz preferowany kodek A2DP</string>
     <string name="a2dp_source_codec_priority_default_title">Domyślny</string>
+
+    <!-- Search -->
+    <string name="menu_search">Wyszukaj aplikacje</string>
+    <string name="menu_search_hint">Wyszukaj aplikacje\u2026</string>
+
 </resources>
