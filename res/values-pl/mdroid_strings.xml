@@ -267,8 +267,8 @@
     <!-- Running services -->
     <string name="background_processes_settings_title">Procesy pracujące w tle</string>
     <!-- MDroid changelog -->
-    <string name="changelog_mdroid_title">Lista zmian</string>
-    <string name="changelog_mdroid_summary">Zobacz listę zmian</string>
+    <string name="changelog_mdroid_title">Dziennik zmian</string>
+    <string name="changelog_mdroid_summary">Zobacz nowości wprowadzone przez autora</string>
     <string name="changelog_mdroid_error">Nie można załadować listy zmian</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Pokaż dziennik powiadomień</string>
