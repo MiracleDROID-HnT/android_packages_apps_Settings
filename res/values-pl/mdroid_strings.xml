@@ -638,4 +638,10 @@
     <string name="menu_search">Wyszukaj aplikacje</string>
     <string name="menu_search_hint">Wyszukaj aplikacje\u2026</string>
 
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura baterii</string>
+
+    <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Akceptuj wszystkie rodzaje plików</string>
+
 </resources>
