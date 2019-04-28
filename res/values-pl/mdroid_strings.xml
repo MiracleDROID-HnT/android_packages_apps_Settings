@@ -31,7 +31,7 @@
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
     <!-- Format string for fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Zlokalizuj czujnik odcisków palców na &lt;xliff: g id = "lokalizacja_sonda"&gt;% 1 $ s &lt;/ xliff: g&gt; Twojego telefonu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Zlokalizuj czujnik odcisków palców na <xliff:g id="sensor_location">%1$s</xliff:g> Twojego telefonu.</string>
     <!-- Fingerprint sensor locations -->
     <string name="security_settings_fingerprint_sensor_location_back">tyle</string>
     <string name="security_settings_fingerprint_sensor_location_front">z przodu</string>
