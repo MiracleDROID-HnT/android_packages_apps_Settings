@@ -1,6 +1,5 @@
 package com.android.settings.wifi;
 
-import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiManager;
 
 /**
@@ -16,38 +15,9 @@ public class WifiManagerWrapper {
     }
 
     /**
-     * Gets the real WifiManager
-     * @return the real WifiManager
-     */
-    public WifiManager getWifiManager() {
-        return mWifiManager;
-    }
-
-    /**
      * {@link WifiManager#getCurrentNetworkWpsNfcConfigurationToken}
      */
     public String getCurrentNetworkWpsNfcConfigurationToken() {
         return mWifiManager.getCurrentNetworkWpsNfcConfigurationToken();
-    }
-
-    /**
-     * {@link WifiManager#removePasspointConfiguration}
-     */
-    public void removePasspointConfiguration(String fqdn) {
-        mWifiManager.removePasspointConfiguration(fqdn);
-    }
-
-    /**
-     * {@link WifiManager#forget}
-     */
-    public void forget(int netId, WifiManager.ActionListener listener) {
-        mWifiManager.forget(netId, listener);
-    }
-
-    /**
-     * {@link WifiManager#save}
-     */
-    public void save(WifiConfiguration config, WifiManager.ActionListener listener) {
-        mWifiManager.save(config, listener);
     }
 }
