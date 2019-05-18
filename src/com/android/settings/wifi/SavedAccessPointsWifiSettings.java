@@ -17,7 +17,6 @@
 package com.android.settings.wifi;
 
 import android.annotation.Nullable;
-import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.icu.text.Collator;
@@ -27,7 +26,6 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.util.Log;
 
-import android.widget.Toast;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -71,22 +69,6 @@ public class SavedAccessPointsWifiSettings extends SettingsPreferenceFragment
         @Override
         public void onFailure(int reason) {
             initPreferences();
-        }
-    };
-
-    private final WifiManager.ActionListener mSaveListener = new WifiManager.ActionListener() {
-        @Override
-        public void onSuccess() {
-            initPreferences();
-        }
-        @Override
-        public void onFailure(int reason) {
-            Activity activity = getActivity();
-            if (activity != null) {
-                Toast.makeText(activity,
-                    R.string.wifi_failed_save_message,
-                    Toast.LENGTH_SHORT).show();
-            }
         }
     };
 
@@ -263,7 +245,7 @@ public class SavedAccessPointsWifiSettings extends SettingsPreferenceFragment
 
     @Override
     public void onSubmit(WifiDialog dialog) {
-        mWifiManager.save(dialog.getController().getConfig(), mSaveListener);
+        // Ignored
     }
 
     @Override
