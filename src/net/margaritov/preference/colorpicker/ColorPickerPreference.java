@@ -323,106 +323,106 @@ public class ColorPickerPreference extends Preference implements
                 })
                 .setCancelable(false);
 
-        Button white = null;
+        Button color_1 = null;
         if (mView != null) {
-            white = mView.findViewById(R.id.white);
+            color_1 = mView.findViewById(R.id.color_1);
         }
-        if (white != null) {
-            white.setOnClickListener(new View.OnClickListener() {
+        if (color_1 != null) {
+            color_1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    onSimpleColorChanged(Color.WHITE);
+                    onSimpleColorChanged(getContext().getColor(R.color.simple_color_1));
                     mSimpleDialog.dismiss();
                 }
             });
         }
-        Button red = null;
+        Button color_2 = null;
         if (mView != null) {
-            red = mView.findViewById(R.id.red);
+            color_2 = mView.findViewById(R.id.color_2);
         }
-        if (red != null) {
-            red.setOnClickListener(new View.OnClickListener() {
+        if (color_2 != null) {
+            color_2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    onSimpleColorChanged(Color.RED);
+                    onSimpleColorChanged(getContext().getColor(R.color.simple_color_2));
                     mSimpleDialog.dismiss();
                 }
             });
         }
-        Button yellow = null;
+        Button color_3 = null;
         if (mView != null) {
-            yellow = mView.findViewById(R.id.yellow);
+            color_3 = mView.findViewById(R.id.color_3);
         }
-        if (yellow != null) {
-            yellow.setOnClickListener(new View.OnClickListener() {
+        if (color_3 != null) {
+            color_3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    onSimpleColorChanged(Color.YELLOW);
+                    onSimpleColorChanged(getContext().getColor(R.color.simple_color_3));
                     mSimpleDialog.dismiss();
                 }
             });
         }
-        Button blue = null;
+        Button color_4 = null;
         if (mView != null) {
-            blue = mView.findViewById(R.id.blue);
+            color_4 = mView.findViewById(R.id.color_4);
         }
-        if (blue != null) {
-            blue.setOnClickListener(new View.OnClickListener() {
+        if (color_4 != null) {
+            color_4.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    onSimpleColorChanged(Color.BLUE);
+                    onSimpleColorChanged(getContext().getColor(R.color.simple_color_4));
                     mSimpleDialog.dismiss();
                 }
             });
         }
-        Button cyan = null;
+        Button color_5 = null;
         if (mView != null) {
-            cyan = mView.findViewById(R.id.cyan);
+            color_5 = mView.findViewById(R.id.color_5);
         }
-        if (cyan != null) {
-            cyan.setOnClickListener(new View.OnClickListener() {
+        if (color_5 != null) {
+            color_5.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    onSimpleColorChanged(Color.CYAN);
+                    onSimpleColorChanged(getContext().getColor(R.color.simple_color_5));
                     mSimpleDialog.dismiss();
                 }
             });
         }
-        Button magenta = null;
+        Button color_6 = null;
         if (mView != null) {
-            magenta = mView.findViewById(R.id.magenta);
+            color_6 = mView.findViewById(R.id.color_6);
         }
-        if (magenta != null) {
-            magenta.setOnClickListener(new View.OnClickListener() {
+        if (color_6 != null) {
+            color_6.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    onSimpleColorChanged(Color.MAGENTA);
+                    onSimpleColorChanged(getContext().getColor(R.color.simple_color_6));
                     mSimpleDialog.dismiss();
                 }
             });
         }
-        Button green = null;
+        Button color_7 = null;
         if (mView != null) {
-            green = mView.findViewById(R.id.green);
+            color_7 = mView.findViewById(R.id.color_7);
         }
-        if (green != null) {
-            green.setOnClickListener(new View.OnClickListener() {
+        if (color_7 != null) {
+            color_7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    onSimpleColorChanged(Color.GREEN);
+                    onSimpleColorChanged(getContext().getColor(R.color.simple_color_7));
                     mSimpleDialog.dismiss();
                 }
             });
         }
-        Button black = null;
+        Button color_8 = null;
         if (mView != null) {
-            black = mView.findViewById(R.id.black);
+            color_8 = mView.findViewById(R.id.color_8);
         }
-        if (black != null) {
-            black.setOnClickListener(new View.OnClickListener() {
+        if (color_8 != null) {
+            color_8.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    onSimpleColorChanged(Color.BLACK);
+                    onSimpleColorChanged(getContext().getColor(R.color.simple_color_8));
                     mSimpleDialog.dismiss();
                 }
             });

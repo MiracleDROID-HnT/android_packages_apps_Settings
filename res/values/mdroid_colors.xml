@@ -21,4 +21,13 @@
     <!-- Expanded desktop -->
     <drawable name="expanded_item_bg_activated">#ffEEEEEE</drawable>
     <drawable name="expanded_item_bg">@android:color/background_light</drawable>
+
+    <color name="simple_color_1">#FFFFFFFF</color><!--white-->
+    <color name="simple_color_2">#FFFF0000</color><!--red-->
+    <color name="simple_color_3">#FFFFFF00</color><!--yellow-->
+    <color name="simple_color_4">#FF0000FF</color><!--blue-->
+    <color name="simple_color_5">#FF00FFFF</color><!--cyan-->
+    <color name="simple_color_6">#FFFF00FF</color><!--magenta-->
+    <color name="simple_color_7">#FF008000</color><!--green-->
+    <color name="simple_color_8">#FF000000</color><!--black-->
 </resources>
