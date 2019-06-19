@@ -719,7 +719,8 @@
     <string name="smart_charging_title">Розумна зарядка</string>
     <string name="smart_charging_summary">Встановити максимальний рівень заряджання</string>
     <string name="smart_charging_switch_title">Ввімкнути розумну зарядку</string>
-    <string name="smart_charging_level_title">Рівень обмеження</string>
+    <string name="smart_charging_level_title">Рівень зупинки заряджання</string>
+    <string name="smart_charging_resume_level_title">Заряджати при рівні</string>
     <string name="smart_charging_footer">Розумна зарядка дозволяє вам встановити максимальний рівень заряджання, щоб продовжити термін роботи вашої батареї</string>
 
 </resources>
