@@ -644,4 +644,34 @@
     <!-- Bluetooth settings.  A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
     <string name="bluetooth_accept_all_files">Akceptuj wszystkie rodzaje plików</string>
 
+    <string name="color_picker_simple_dialog_title">Ustaw kolor diody led</string>
+
+    <!-- Time In State & CPU State -->
+    <string name="state_time_mode">Włączony ekran</string>
+    <string name="since_boot">włączenia telefonu</string>
+    <string name="since_charged">naładowania telefonu</string>
+    <string name="since_reset">restartu </string>
+    <string name="create_ref">restart</string>
+    <string name="spinner_period_title">Od</string>
+    <string name="state_core_mode">Rdzenie</string>
+    <string name="total_time">Całkowite</string>
+    <string name="no_stat_because_reset_state">Naciśnij restart, aby rozpocząć zbieranie informacji od tego momentu</string>
+    <string name="no_states_file_found">Nie znaleziono danych w pliku. Czy jesteś pewien, że twój telefon jest kompatybilny z tą funkcją?\n\nJeśli używasz nieoficjalnej wersji systemu spróbuj skontaktować się z deweloperem aby poinformować go o tym, że plik nie jest zgodny</string>
+    <string name="deep_sleep">"Głębokie uśpienie"</string>
+    <string name="mt_refresh">Odśwież</string>
+    <string name="mt_share">Udostępnij</string>
+    <string name="mt_reset">Resetuj</string>
+    <string name="time_in_state_title">Użycie procesora</string>
+    <string name="time_in_state_summary">Wyświetl użycie CPU telefonu</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Inteligentne ładowanie</string>
+    <string name="smart_charging_summary">Ustaw maksymalny poziom ładowania</string>
+    <string name="smart_charging_switch_title">Używaj inteligentnego ładowania</string>
+    <string name="smart_charging_level_title">Zatrzymaj ładowanie na poziomie</string>
+    <string name="smart_charging_resume_level_title">Rozpoczynaj ładowanie na poziomie </string>
+    <string name="smart_charging_reset_stats_title">Resetuj statystyki baterii</string>
+    <string name="smart_charging_reset_stats_summary">Zresetuj statystyki baterii po osiągnięciu zdefiniowanego przez użytkownika poziomu naładowania</string>
+    <string name="smart_charging_footer">Inteligentne ładowanie pozwala ustawić maksymalny poziom do którego bateria będzie ładowana, aby wydłużyć jej żywotność</string>
+
 </resources>
