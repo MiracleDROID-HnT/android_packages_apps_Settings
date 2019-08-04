@@ -3384,6 +3384,18 @@
                 android:value="mx.mdroid.magicalworld.fragments.style.StylePreferences" />
         </activity>
 
+        <activity
+            android:name="mx.mdroid.magicalworld.fragments.style.colorpicker.ColorPickerActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:label="colorpicker"
+            android:enabled="true"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="mx.mdroid.magicalworld.fragments.style.colorpicker.ColorPickerActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <!-- Root Application -->
         <activity android:name="Settings$RootManagementActivity"
                   android:label="@string/rootmanagement_title"
