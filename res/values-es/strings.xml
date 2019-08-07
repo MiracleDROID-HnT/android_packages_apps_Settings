@@ -114,7 +114,7 @@
     <string name="bluetooth_disconnect_all_profiles" product="device" msgid="3995834526315103965">"Tu dispositivo se desconectará de <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_disconnect_dialog_ok" msgid="3308586619539119106">"Desconectar"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="603521233563983689">"No tienes permiso para cambiar los ajustes de Bluetooth."</string>
-    <string name="bluetooth_pairing_pref_title" msgid="7429413067477968637">"Vincular nuevo dispositivo"</string>
+    <string name="bluetooth_pairing_pref_title" msgid="7429413067477968637">"Empaejar dispositivo nuevo"</string>
     <string name="bluetooth_is_visible_message" msgid="6222396240776971862">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> será visible para dispositivos cercanos mientras los ajustes de Bluetooth estén abiertos."</string>
     <string name="bluetooth_footer_mac_message" product="default" msgid="1109366350000220283">"Dirección de Bluetooth del teléfono: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
     <string name="bluetooth_footer_mac_message" product="tablet" msgid="6807634484499166486">"Dirección de Bluetooth del tablet: <xliff:g id="BLUETOOTH_MAC_ADDRESS">%1$s</xliff:g>"</string>
@@ -168,7 +168,7 @@
     <string name="bluetooth_sap_acceptance_dialog_text" msgid="4414253873553608690">"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g> quiere acceder a tu tarjeta SIM. Si lo permites, se inhabilitará la conexión de datos del dispositivo durante la conexión. Conceder acceso a <xliff:g id="DEVICE_NAME_1">%2$s?</xliff:g>"</string>
     <string name="bluetooth_device_name_summary" msgid="522235742194965734">"Visible como \"<xliff:g id="DEVICE_NAME">^1</xliff:g>\" para otros dispositivos"</string>
     <string name="bluetooth_paired_device_title" msgid="8638994696317952019">"Tus dispositivos"</string>
-    <string name="bluetooth_pairing_page_title" msgid="7712127387361962608">"Vincular nuevo dispositivo"</string>
+    <string name="bluetooth_pairing_page_title" msgid="7712127387361962608">"Emparejar dispositivo nuevo"</string>
     <string name="date_and_time" msgid="9062980487860757694">"Fecha y hora"</string>
     <string name="choose_timezone" msgid="1362834506479536274">"Elige una zona horaria"</string>
     <!-- no translation found for intent_sender_data_label (6332324780477289261) -->
@@ -1727,7 +1727,7 @@
     <string name="language_input_gesture_summary_on_non_assist" msgid="756147879200943161"></string>
     <string name="language_input_gesture_summary_off" msgid="4617198819416948217"></string>
     <string name="language_settings" msgid="8758655933029560944">"Idiomas e introducción de texto"</string>
-    <string name="language_keyboard_settings_title" msgid="3709159207482544398">"Idiomas e introd. de texto"</string>
+    <string name="language_keyboard_settings_title" msgid="3709159207482544398">"Idiomas e introducción de texto"</string>
     <string name="input_assistance" msgid="7577795275222555487">"Asistencia de introducción de texto"</string>
     <string name="keyboard_settings_category" msgid="8275523930352487827">"Teclado e introducción de texto"</string>
     <string name="phone_language" msgid="7116581601133118044">"Idiomas"</string>
@@ -2774,7 +2774,7 @@
     <string name="keywords_display_cast_screen" msgid="7684618996741933067">"proyectar, enviar"</string>
     <string name="keywords_storage" msgid="3299217909546089225">"espacio, disco, disco duro, uso del dispositivo"</string>
     <string name="keywords_battery" msgid="1173830745699768388">"consumo de batería, carga"</string>
-    <string name="keywords_spell_checker" msgid="1399641226370605729">"ortografía, diccionarios, corrector ortográfico, autocorrección"</string>
+    <string name="keywords_spell_checker" msgid="1399641226370605729">"ortografía, diccionarios, corrector ortográfico, corrección automática"</string>
     <string name="keywords_voice_input" msgid="769778245192531102">"herramienta de reconocimiento, entrada, síntesis de voz, hablar, idioma, manos libres, reconocimiento, ofensiva, palabra, audio, historial, auriculares bluetooth"</string>
     <string name="keywords_text_to_speech_output" msgid="5150660047085754699">"valorar, idioma, predeterminado, hablar, síntesis de voz, accesibilidad, lector de pantalla, ciego"</string>
     <string name="keywords_date_and_time" msgid="758325881602648204">"reloj, militar"</string>

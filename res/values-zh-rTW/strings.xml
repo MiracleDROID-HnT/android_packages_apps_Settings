@@ -1073,7 +1073,7 @@
     <string name="screensaver_settings_button" msgid="7292214707625717013">"設定"</string>
     <string name="automatic_brightness" msgid="5014143533884135461">"自動調整亮度"</string>
     <string name="lift_to_wake_title" msgid="4555378006856277635">"舉起即可喚醒"</string>
-    <string name="ambient_display_screen_title" msgid="4252755516328775766">"微光螢幕"</string>
+    <string name="ambient_display_screen_title" msgid="4252755516328775766">"環境顯示"</string>
     <string name="ambient_display_screen_summary_always_on" msgid="7337555569694794132">"一律開啟/將增加電池用量"</string>
     <string name="ambient_display_screen_summary_notifications" msgid="1449570742600868654">"新通知"</string>
     <string name="ambient_display_category_triggers" msgid="4359289754456268573">"顯示時機"</string>

@@ -3400,7 +3400,7 @@
     <string name="color_temperature_desc" msgid="4793729830226404052">"Use cooler display colours"</string>
     <string name="color_temperature_toast" msgid="4974218172133854827">"To apply colour change, turn off screen"</string>
     <string name="telephony_monitor_toast" msgid="7003764250271195384">"To apply telephony monitor change, reboot device"</string>
-    <string name="camera_laser_sensor_switch" msgid="8913588990743234440">"Camera laser sensor"</string>
+    <string name="camera_laser_sensor_switch" msgid="8913588990743234440">"Camera Laser Sensor"</string>
     <string name="ota_disable_automatic_update" msgid="2319639631655915050">"Automatic system updates"</string>
     <string name="usage" msgid="2977875522080448986">"Usage"</string>
     <string name="cellular_data_usage" msgid="2155683719898158203">"Mobile data usage"</string>

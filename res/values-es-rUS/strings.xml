@@ -2960,7 +2960,7 @@
     <string name="notification_badge_title" msgid="6370122441168519809">"Permitir punto de notificación"</string>
     <string name="notification_channel_badge_title" msgid="2240827899882847087">"Mostrar punto de notificación"</string>
     <string name="app_notification_override_dnd_title" msgid="7867458246395884830">"Anular No interrumpir"</string>
-    <string name="app_notification_override_dnd_summary" msgid="3516007157020189746">"Permitir estas notificaciones cuando la opción No interrumpir esté configurada como Solo prioridad"</string>
+    <string name="app_notification_override_dnd_summary" msgid="3516007157020189746">"Permitir que estas notificaciones sigan interrumpiendo cuando No molestar esté configurado como Solo prioridad"</string>
     <string name="app_notification_visibility_override_title" msgid="2187232730902430718">"En la pantalla bloqueada"</string>
     <string name="app_notification_row_banned" msgid="5983655258784814773">"Bloqueadas"</string>
     <string name="app_notification_row_priority" msgid="7723839972982746568">"Prioridad"</string>

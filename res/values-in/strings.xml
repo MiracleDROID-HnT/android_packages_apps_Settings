@@ -2248,7 +2248,7 @@
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
     <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Berhenti mencadangkan sandi Wi-Fi, bookmark, setelan lainnya, dan data aplikasi, serta menghapus semua salinan di server Google?"</string>
     <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Berhenti mencadangkan data perangkat (seperti sandi Wi-Fi dan histori panggilan) dan data aplikasi (seperti setelan dan file yang disimpan oleh aplikasi), serta hapus semua salinan di server jarak jauh?"</string>
-    <string name="fullbackup_data_summary" msgid="960850365007767734">"Otomatis cadangkan data perangkat (seperti sandi Wi-Fi dan histori panggilan) dan data aplikasi (seperti setelan dan file yang disimpan oleh aplikasi) dari jarak jauh.\n\nJika Anda mengaktifkan cadangan otomatis, data perangkat dan aplikasi secara berkala disimpan dari jarak jauh. Data aplikasi dapat berupa data apa saja yang telah disimpan oleh aplikasi (menurut setelan developer), termasuk data yang berpotensi sensitif seperti kontak, pesan, dan foto."</string>
+    <string name="fullbackup_data_summary" msgid="960850365007767734">"Otomatis cadangkan data perangkat (seperti sandi Wi-Fi dan histori panggilan) dan data aplikasi (seperti setelan dan file yang disimpan oleh aplikasi) dari jarak jauh.\n\nJika Anda mengaktifkan cadangan otomatis, data perangkat dan aplikasi secara berkala disimpan dari jarak jauh. Data aplikasi dapat berupa data apa saja yang telah disimpan oleh aplikasi (menurut setelan pengembang), termasuk data yang berpotensi sensitif seperti kontak, pesan, dan foto."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Setelan admin perangkat"</string>
     <string name="active_device_admin_msg" msgid="578748451637360192">"Aplikasi admin perangkat"</string>
     <string name="remove_device_admin" msgid="9207368982033308173">"Nonaktifkan aplikasi admin perangkat ini"</string>
@@ -3058,7 +3058,7 @@
     <string name="switch_on_text" msgid="1124106706920572386">"Aktif"</string>
     <string name="switch_off_text" msgid="1139356348100829659">"Nonaktif"</string>
     <string name="screen_pinning_title" msgid="2292573232264116542">"Pin ke layar"</string>
-    <string name="screen_pinning_description" msgid="3360904523688769289">"Jika setelan ini diaktifkan, Anda dapat menggunakan fitur pin ke layar agar tampilan layar tetap seperti ini sampai pin dilepas.\n\nUntuk menggunakan fitur pin ke layar:\n\n1. Pastikan fitur pin ke layar telah diaktifkan.\n\n2. Buka layar yang ingin Anda pasang pin.\n\n3. Tap Ringkasan.\n\n4. Geser ke atas, lalu tap ikon pin."</string>
+    <string name="screen_pinning_description" msgid="3360904523688769289">"Jika setelan ini diaktifkan, Anda dapat menggunakan fitur pin ke layar agar tampilan layar tetap seperti ini sampai pin dilepas.\n\nUntuk menggunakan fitur pin ke layar:\n\n1. Pastikan fitur pin ke layar telah diaktifkan.\n\n2. Buka layar yang ingin Anda pasang pin.\n\n3. Ketuk Ringkasan.\n\n4. Geser ke atas, lalu ketuk ikon pin."</string>
     <string name="screen_pinning_unlock_pattern" msgid="8282268570060313339">"Minta pola pembuka kunci sebelum melepas pin"</string>
     <string name="screen_pinning_unlock_pin" msgid="8757588350454795286">"Minta PIN sebelum lepas pin"</string>
     <string name="screen_pinning_unlock_password" msgid="2514079566873826434">"Minta sandi sebelum melepas pin"</string>

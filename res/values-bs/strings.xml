@@ -753,14 +753,14 @@
     <string name="wifi_setting_on_during_sleep_title" msgid="8308975500029751565">"WiFi za vrijeme mirovanja"</string>
     <string name="wifi_setting_sleep_policy_error" msgid="8174902072673071961">"Pojavio se problem prilikom mijenjanja postavke"</string>
     <string name="wifi_suspend_efficiency_title" msgid="2338325886934703895">"Poboljšaj učinkovitost"</string>
-    <string name="wifi_suspend_optimizations" msgid="1220174276403689487">"Optimizacija WiFi-ja"</string>
-    <string name="wifi_suspend_optimizations_summary" msgid="4151428966089116856">"Minimiziraj potrošnju baterije kad je WiFi uključen"</string>
-    <string name="wifi_limit_optimizations_summary" msgid="9000801068363468950">"Limit za bateriju za WiFi"</string>
-    <string name="wifi_switch_away_when_unvalidated" msgid="1707247692180853058">"Prebaci se na prijenos podataka na mobilnoj mreži kada WiFi izgubi pristup Internetu."</string>
+    <string name="wifi_suspend_optimizations" msgid="1220174276403689487">"Optimizacija Wi-Fi-ja"</string>
+    <string name="wifi_suspend_optimizations_summary" msgid="4151428966089116856">"Korištenje baterije se svodi na minimum kada je Wi-Fi uključen"</string>
+    <string name="wifi_limit_optimizations_summary" msgid="9000801068363468950">"Limit za bateriju za Wi-Fi"</string>
+    <string name="wifi_switch_away_when_unvalidated" msgid="1707247692180853058">"Prebaci se na prijenos podataka na mobilnoj mreži kada Wi-Fi izgubi pristup Internetu."</string>
     <string name="wifi_cellular_data_fallback_title" msgid="8753386877755616476">"Automatsko prebacivanje na prijenos podataka na mobilnoj mreži"</string>
-    <string name="wifi_cellular_data_fallback_summary" msgid="6375399280719867214">"Koristite prijenos podataka na mobilnoj mreži kada WiFi mreža nema pristup internetu. Mogući su troškovi za prijenos podataka."</string>
-    <string name="wifi_add_network" msgid="6234851776910938957">"Dodaj mrežu"</string>
-    <string name="wifi_configure_settings_preference_title" msgid="2913345003906899146">"Postavke za WiFi"</string>
+    <string name="wifi_cellular_data_fallback_summary" msgid="6375399280719867214">"Koristite prijenos podataka na mobilnoj mreži kada Wi-Fi mreža nema pristup internetu. Mogući su troškovi za prijenos podataka."</string>
+    <string name="wifi_add_network" msgid="6234851776910938957">"Dodajte mrežu"</string>
+    <string name="wifi_configure_settings_preference_title" msgid="2913345003906899146">"Postavke za Wi-Fi"</string>
     <string name="wifi_configure_settings_preference_summary_wakeup_on" msgid="646393113104367290">"Wi‑Fi veza se uključuje ponovo automatski"</string>
     <string name="wifi_configure_settings_preference_summary_wakeup_off" msgid="2782566279864356713">"Wi‑Fi veza se ne uključuje ponovo automatski"</string>
     <string name="wifi_access_points" msgid="7053990007031968609">"WiFi mreže"</string>
@@ -2267,9 +2267,9 @@
     <string name="backup_inactive_title" msgid="685838037986644604">"Usluga za izradu sigurnosne kopije nije aktivna"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"Nijedan račun trenutno ne pravi sigurnosne kopije podataka"</string>
     <string name="backup_erase_dialog_title" msgid="1027640829482174106"></string>
-    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Želite li prestati sa izradom sigurnosnih kopija lozinki za WiFi, oznaka, drugih postavki te podataka aplikacija i izbrisati sve kopije sa Google servera?"</string>
-    <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Prestani da praviš sigurnosne kopije podataka (npr. lozinke za WiFi i istorija poziva) i podataka aplikacije (npr. postavke i fajlovi koje pohranjuju aplikacije), i izbriši sve kopije na udaljenim serverima?"</string>
-    <string name="fullbackup_data_summary" msgid="960850365007767734">"Daljinski pokrenite automatsku izradu sigurnosnih kopija podataka na uređaju (npr. WiFi lozinki i historije poziva) i podataka iz aplikacija (npr. postavki i fajlova koje pohranjuju aplikacije).\n\nKada uključite automatsku izradu sigurnosnih kopija, podaci iz uređaja i aplikacija se periodično pohranjuju daljinski. Podaci iz aplikacije mogu biti bilo koji podaci koje je aplikacija sačuvala (na osnovu programerskih postavki), uključujući i potencijalno osjetljive podatke, kao što su kontakti, poruke i fotografije."</string>
+    <string name="backup_erase_dialog_message" msgid="5221011285568343155">"Želite li prestati sa izradom sigurnosnih kopija lozinki za Wi-Fi, obeleživača, drugih postavki te podataka aplikacija i izbrisati sve kopije sa Google servera?"</string>
+    <string name="fullbackup_erase_dialog_message" msgid="694766389396659626">"Prestani da praviš sigurnosne kopije podataka (npr. lozinke za Wi-Fi i istorija poziva) i podataka aplikacije (npr. postavke i fajlovi koje pohranjuju aplikacije), i izbriši sve kopije na udaljenim serverima?"</string>
+    <string name="fullbackup_data_summary" msgid="960850365007767734">"Daljinski pokrenite automatsku izradu sigurnosnih kopija podataka na uređaju (npr. Wi-Fi lozinki i historije poziva) i podataka iz aplikacija (npr. postavki i fajlova koje pohranjuju aplikacije).\n\nKada uključite automatsku izradu sigurnosnih kopija, podaci iz uređaja i aplikacija se periodično pohranjuju daljinski. Podaci iz aplikacije mogu biti bilo koji podaci koje je aplikacija sačuvala (na osnovu programerskih postavki), uključujući i potencijalno osjetljive podatke, kao što su kontakti, poruke i fotografije."</string>
     <string name="device_admin_settings_title" msgid="4960761799560705902">"Postavke administratora uređaja"</string>
     <string name="active_device_admin_msg" msgid="578748451637360192">"Aplikacija administratora uređaja"</string>
     <string name="remove_device_admin" msgid="9207368982033308173">"Deaktiviraj ovu aplikaciju administratora uređaja"</string>
@@ -3415,7 +3415,7 @@
     <string name="condition_battery_title" msgid="3272131008388575349">"Čuvar baterije je uključen"</string>
     <string name="condition_battery_summary" msgid="4418839236027977450">"Performanse su smanjenje. Usluge određivanja lokacije i pozadinski podaci su isključeni."</string>
     <string name="condition_cellular_title" msgid="1327317003797575735">"Prijenos podataka na mobilnoj mreži je isključen"</string>
-    <string name="condition_cellular_summary" msgid="1818046558419658463">"Internet je dostupan samo putem WiFi mreže."</string>
+    <string name="condition_cellular_summary" msgid="1818046558419658463">"Internet je dostupan samo putem Wi-Fi mreže."</string>
     <string name="condition_bg_data_title" msgid="2483860304802846542">"Ušteda podataka je uključena"</string>
     <string name="condition_bg_data_summary" msgid="656957852895282228">"Pozadinski podaci su dostupni samo putem WiFi mreže. Ovo može uticati na rad nekih aplikacija ili usluga kada WiFi nije dostupan."</string>
     <string name="condition_work_title" msgid="7293722361184366648">"Radni profil je isključen"</string>
@@ -3446,12 +3446,12 @@
     <string name="ota_disable_automatic_update" msgid="2319639631655915050">"Automatsko ažuriranje sistema"</string>
     <string name="usage" msgid="2977875522080448986">"Potrošnja"</string>
     <string name="cellular_data_usage" msgid="2155683719898158203">"Prijenos podataka na mobilnoj mreži"</string>
-    <string name="wifi_data_usage" msgid="686754111095324306">"Potrošnja WiFi podataka"</string>
+    <string name="wifi_data_usage" msgid="686754111095324306">"Potrošnja Wi-Fi podataka"</string>
     <string name="ethernet_data_usage" msgid="5108764537574354616">"Prijenos podataka putem Etherneta"</string>
     <string name="wifi" msgid="1081550856200013637">"WiFi"</string>
     <string name="ethernet" msgid="6600095783781389720">"Ethernet"</string>
     <string name="cell_data_template" msgid="405684854174361041">"<xliff:g id="AMOUNT">^1</xliff:g> putem prijenosa podataka"</string>
-    <string name="wifi_data_template" msgid="6265570748799357386">"<xliff:g id="AMOUNT">^1</xliff:g> WiFi podataka"</string>
+    <string name="wifi_data_template" msgid="6265570748799357386">"<xliff:g id="AMOUNT">^1</xliff:g> Wi-Fi podataka"</string>
     <string name="ethernet_data_template" msgid="5782476509881033590">"<xliff:g id="AMOUNT">^1</xliff:g> ethernet podataka"</string>
     <string name="cell_warning_only" msgid="763147658209027140">"Upozorenje o podacima <xliff:g id="ID_1">%1$s</xliff:g>"</string>
     <string name="cell_warning_and_limit" msgid="2273413629267437470">"Upozorenje o podacima <xliff:g id="ID_1">%1$s</xliff:g> / Ograničenje podataka <xliff:g id="ID_2">%2$s</xliff:g>"</string>

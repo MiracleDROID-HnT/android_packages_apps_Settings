@@ -368,11 +368,11 @@
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"قفل الشاشة"</string>
     <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
       <item quantity="zero">عدم إعداد أي بصمة إصبع (<xliff:g id="COUNT_1">%1$d</xliff:g>)</item>
-      <item quantity="two">تم إعداد بصمتي إصبع (<xliff:g id="COUNT_1">%1$d</xliff:g>)</item>
-      <item quantity="few">تم إعداد <xliff:g id="COUNT_1">%1$d</xliff:g> بصمات إصبع</item>
-      <item quantity="many">تم إعداد <xliff:g id="COUNT_1">%1$d</xliff:g> بصمة إصبع</item>
-      <item quantity="other">تم إعداد <xliff:g id="COUNT_1">%1$d</xliff:g> من بصمات الإصبع</item>
-      <item quantity="one">تم إعداد بصمة إصبع واحدة (1( (<xliff:g id="COUNT_0">%1$d</xliff:g>)</item>
+      <item quantity="two">إعداد بصمتي إصبع (<xliff:g id="COUNT_1">%1$d</xliff:g>)</item>
+      <item quantity="few">إعداد <xliff:g id="COUNT_1">%1$d</xliff:g> بصمات إصبع</item>
+      <item quantity="many">إعداد <xliff:g id="COUNT_1">%1$d</xliff:g> بصمة إصبع</item>
+      <item quantity="other">إعداد <xliff:g id="COUNT_1">%1$d</xliff:g> من بصمات الإصبع</item>
+      <item quantity="one">إعداد بصمة إصبع واحدة (<xliff:g id="COUNT_0">%1$d</xliff:g>)</item>
     </plurals>
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_introduction_title" msgid="3201556857492526098">"فتح القفل باستخدام بصمة الإصبع"</string>

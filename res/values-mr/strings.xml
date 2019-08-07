@@ -3614,7 +3614,7 @@
     <string name="auto_sync_personal_account_title" msgid="8496263182646100610">"वैयक्तिक डेटा स्वयंचलितपणे संकालित करा"</string>
     <string name="auto_sync_work_account_title" msgid="4489172450037434152">"कार्य डेटा स्वयंचलितपणे संकालित करा"</string>
     <string name="auto_sync_account_summary" msgid="692499211629185107">"अ‍ॅप्सना डेटा स्वयंचलितपणे रिफ्रेश करू द्या"</string>
-    <string name="account_sync_title" msgid="7214747784136106491">"खाते सिंक"</string>
+    <string name="account_sync_title" msgid="7214747784136106491">"खाते संकालन"</string>
     <string name="account_sync_summary_some_on" msgid="3375930757891381175">"<xliff:g id="ID_2">%2$d</xliff:g> पैकी <xliff:g id="ID_1">%1$d</xliff:g> आयटमसाठी सिंक करणे चालू आहे"</string>
     <string name="account_sync_summary_all_on" msgid="570431636622254156">"सर्व आयटमसाठी सिंक करणे चालू करा"</string>
     <string name="account_sync_summary_all_off" msgid="8782409931761182734">"सर्व आयटमसाठी सिंक करणे बंद करा"</string>
